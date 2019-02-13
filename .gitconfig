@@ -1,0 +1,15 @@
+[user]
+  name = shoheikawano
+  email = mail.shoheikawano@gmail.com
+[color]
+  ui = auto
+[alias]
+  a = add
+  b = branch
+  ci = commit
+  co = checkout
+  df = diff
+  p = pull
+  r = reset
+  s = stash
+  st = status
