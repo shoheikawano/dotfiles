@@ -6,6 +6,7 @@
 [alias]
   a = add
   b = branch
+  bd = branch -d
   ci = commit
   co = checkout
   df = diff
@@ -13,3 +14,4 @@
   r = reset
   s = stash
   st = status
+
