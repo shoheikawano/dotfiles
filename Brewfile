@@ -27,6 +27,7 @@ cask 'docker'
 cask 'google-chrome'
 cask 'google-backup-and-sync'
 cask 'google-japanese-ime'
+cask 'pngyu'
 cask 'slack'
 cask 'zeplin'
 
