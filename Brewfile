@@ -29,7 +29,9 @@ cask 'google-backup-and-sync'
 cask 'google-japanese-ime'
 cask 'pngyu'
 cask 'slack'
+cask 'visual-studio-code'
 cask 'zeplin'
+cask '1password'
 
 # mas
 
