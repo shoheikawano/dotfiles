@@ -1,9 +1,10 @@
 # alias
 alias g='git '
 alias gw='./gradlew '
+alias devd='adb install app/build/outputs/apk/dev/debug/app-dev-debug.apk'
+alias adevd='./gradlew assembleDevDebug'
+alias bundletool='java -jar ~/bundletool.jar'
 
 # git
-source /usr/local/etc/bash_completion.d/git-prompt.sh
-source /usr/local/etc/bash_completion.d/git-completion.bash
-GIT_PS1_SHOWDIRTYSTATE=true
-export PS1='\h\[\033[00m\]:\W\[\033[31m\]$(__git_ps1 [%s])\[\033[00m\]\$ '
+test -f /usr/local/etc/bash_completion.d/.git-prompt.bash && . $_
+test -f /usr/local/etc/bash_completion.d/.git-completion.bash && . $_
