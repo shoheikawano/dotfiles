@@ -18,6 +18,7 @@ tap 'caskroom/versions'
 
 # cask
 
+cask 'adoptopenjdk8'
 cask 'android-studio'
 cask 'androidtool'
 cask 'android-sdk'
@@ -31,6 +32,8 @@ cask 'pngyu'
 cask 'slack'
 cask 'visual-studio-code'
 cask 'zeplin'
+cask 'xmind'
+cask 'reeder'
 cask '1password'
 
 # mas
