@@ -10,6 +10,7 @@ brew 'openssl'
 brew 'rbenv'
 brew 'tree'
 brew 'wget'
+brew 'holgerbrandl/tap/kscript'
 
 # tap
 
