@@ -30,14 +30,14 @@ cask 'google-chrome'
 cask 'google-backup-and-sync'
 cask 'google-japanese-ime'
 cask 'pngyu'
-cask 'slack'
 cask 'visual-studio-code'
 cask 'zeplin'
-cask 'xmind'
-cask 'reeder'
-cask '1password'
 
 # mas
 
 mas 'Keynote', id: 409183694
-
+mas 'Reeder 3', id: 880001334
+mas 'Slack', id: 803453959
+mas 'Xmind', id: 1327661892
+mas '1Password', id: 1333542190
+mas 'JPEGmini', id: 498944723
