@@ -21,3 +21,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/a13470/google-cloud-sdk/path.bash.inc' ]; then . '/Users/a13470/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/a13470/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/a13470/google-cloud-sdk/completion.bash.inc'; fi
