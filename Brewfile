@@ -11,6 +11,7 @@ brew 'rbenv'
 brew 'tree'
 brew 'wget'
 brew 'holgerbrandl/tap/kscript'
+brew 'graphviz'
 
 # tap
 
