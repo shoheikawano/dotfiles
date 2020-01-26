@@ -2,6 +2,7 @@
 alias g='git '
 alias gw='./gradlew '
 alias inst='adb install app/build/outputs/apk/debug/app-debug.apk'
+alias uninst='adb uninstall '
 alias instdd='adb install app/build/outputs/apk/dev/debug/app-dev-debug.apk'
 alias gc='./gradlew clean'
 alias ad='./gradlew assembleDebug'
