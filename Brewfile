@@ -12,6 +12,7 @@ brew 'tree'
 brew 'wget'
 brew 'holgerbrandl/tap/kscript'
 brew 'graphviz'
+brew 'github/gh/gh'
 
 # tap
 
