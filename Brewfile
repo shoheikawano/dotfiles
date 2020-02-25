@@ -34,6 +34,7 @@ cask 'google-cloud-sdk'
 cask 'pngyu'
 cask 'visual-studio-code'
 cask 'zeplin'
+cask 'brave-browser'
 
 # mas
 
