@@ -16,8 +16,8 @@ brew 'github/gh/gh'
 
 # tap
 
-tap 'caskroom/cask'
-tap 'caskroom/versions'
+tap 'homebrew/cask-cask'
+tap 'homebrew/cask-versions'
 
 # cask
 
