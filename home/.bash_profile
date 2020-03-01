@@ -2,6 +2,9 @@
 if [ -f ~/.bashrc ] ; then
   . ~/.bashrc
 fi
+if [ -f ~/.bashrcx ] ; then
+  . ~/.bashrcx
+fi
 
 # Android SDK
 export PATH=$PATH:~/Library/Android/sdk/platform-tools
