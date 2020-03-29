@@ -37,12 +37,13 @@ cask 'pngyu'
 cask 'visual-studio-code'
 cask 'zeplin'
 cask 'brave-browser'
+cask 'zoomus'
 
 # mas
 
 mas 'Keynote', id: 409183694
+mas 'Xcode', id: 497799835
 mas 'Reeder 3', id: 880001334
 mas 'Slack', id: 803453959
-mas 'Xmind', id: 1327661892
 mas '1Password', id: 1333542190
 mas 'JPEGmini', id: 498944723
