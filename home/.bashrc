@@ -17,7 +17,6 @@ alias ar='./gradlew assembleRelease'
 alias adevd='./gradlew assembleDevDebug'
 alias adevr='./gradlew assembleDevRelease'
 alias dept='./gradlew dependencyUpdates'
-alias bundletool='java -jar ~/bundletool.jar'
 alias cap='adb exec-out screencap -p > ~/Desktop/"$(date +"%Y_%m_%d_%I_%M_%S_%p").png"'
 
 # git
