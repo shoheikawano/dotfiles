@@ -15,6 +15,7 @@ brew 'graphviz'
 brew 'github/gh/gh'
 brew 'ffmpeg'
 brew 'bundletool'
+brew 'firebase-cli'
 
 # tap
 
