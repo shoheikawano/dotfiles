@@ -16,6 +16,7 @@ brew 'github/gh/gh'
 brew 'ffmpeg'
 brew 'bundletool'
 brew 'firebase-cli'
+brew 'bitrise'
 
 # tap
 
