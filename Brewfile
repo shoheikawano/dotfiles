@@ -17,6 +17,7 @@ brew 'ffmpeg'
 brew 'bundletool'
 brew 'firebase-cli'
 brew 'bitrise'
+brew 'pyenv'
 
 # tap
 
