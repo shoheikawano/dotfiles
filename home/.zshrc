@@ -32,3 +32,8 @@ test -f /usr/local/etc/bash_completion.d/.git-completion.bash && . $_
 
 eval "$(rbenv init -)"
 
+# autocompletion
+autoload -Uz compinit
+compinit
+setopt COMPLETE_ALIASES
+
