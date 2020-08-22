@@ -26,8 +26,9 @@ alias cap='adb exec-out screencap -p > ~/Desktop/"$(date +"%Y_%m_%d_%I_%M_%S_%p"
 alias sdebug='adb shell am set-debug-app -w --persistent'
 alias cdebug='adb shell am clear-debug-app'
 
-
 # git
 test -f /usr/local/etc/bash_completion.d/.git-prompt.bash && . $_
 test -f /usr/local/etc/bash_completion.d/.git-completion.bash && . $_
+
+eval "$(rbenv init -)"
 

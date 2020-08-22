@@ -1,9 +1,9 @@
-# Load bashrc
-if [ -f ~/.bashrc ] ; then
-  . ~/.bashrc
+# Load zshrc
+if [ -f ~/.zshrc ] ; then
+  . ~/.zshrc
 fi
-if [ -f ~/.bashrcx ] ; then
-  . ~/.bashrcx
+if [ -f ~/.zshrcx ] ; then
+  . ~/.zshrcx
 fi
 
 # Android SDK
@@ -20,7 +20,7 @@ export PATH=$PATH:~/depot_tools
 export PATH=$PATH:~/bin
 
 # flutter
-export PATH=$PATH:~/flutter/bin
+export PATH=$PATH:~/Library/flutter/bin
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
@@ -33,5 +33,4 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 
 # ruby
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-eval "$(pyenv init -)"
+
