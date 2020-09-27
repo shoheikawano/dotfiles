@@ -25,7 +25,8 @@ alias dept='./gradlew dependencyUpdates'
 alias cap='adb exec-out screencap -p > ~/Desktop/"$(date +"%Y_%m_%d_%I_%M_%S_%p").png"'
 alias sdebug='adb shell am set-debug-app -w --persistent'
 alias cdebug='adb shell am clear-debug-app'
-
+alias demostart='adb shell settings put global sysui_demo_allowed 1'
+alias demoend='adb shell am broadcast -a com.android.systemui.demo -e command exit'
 # git
 test -f /usr/local/etc/bash_completion.d/.git-prompt.bash && . $_
 test -f /usr/local/etc/bash_completion.d/.git-completion.bash && . $_
