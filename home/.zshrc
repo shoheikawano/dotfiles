@@ -27,11 +27,14 @@ alias sdebug='adb shell am set-debug-app -w --persistent'
 alias cdebug='adb shell am clear-debug-app'
 alias demostart='adb shell settings put global sysui_demo_allowed 1'
 alias demoend='adb shell am broadcast -a com.android.systemui.demo -e command exit'
+
+# java
+alias java8='export JAVA_HOME=$JAVA_8_HOME'
+alias java11='export JAVA_HOME=$JAVA_11_HOME'
+
 # git
 test -f /usr/local/etc/bash_completion.d/.git-prompt.bash && . $_
 test -f /usr/local/etc/bash_completion.d/.git-completion.bash && . $_
-
-eval "$(rbenv init -)"
 
 # autocompletion
 autoload -Uz compinit

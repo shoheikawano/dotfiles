@@ -11,7 +11,10 @@ export PATH=$PATH:~/Library/Android/sdk/platform-tools
 export ANDROID_HOME=~/Library/Android/sdk/platform-tools
 
 # Java 8
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
+
+export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
+export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
 
 # depot_tools
 export PATH=$PATH:~/depot_tools
