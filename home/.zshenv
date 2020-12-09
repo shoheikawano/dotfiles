@@ -10,9 +10,8 @@ fi
 export PATH=$PATH:~/Library/Android/sdk/platform-tools
 export ANDROID_HOME=~/Library/Android/sdk/platform-tools
 
-# Java 8
-export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
-
+# Java
+export JAVA_HOME=$(/usr/libexec/java_home -v11)
 export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
 export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
 
