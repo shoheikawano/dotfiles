@@ -43,6 +43,7 @@ cask 'visual-studio-code'
 cask 'zeplin'
 cask 'brave-browser'
 cask 'zoomus'
+cask 'jetbrains-toolbox'
 
 # mas
 
