@@ -1,5 +1,6 @@
 # alias
 alias g='git '
+alias ga='git add .'
 alias gst='g st'
 alias gp='g pull'
 alias gpr='g pull --rebase'
