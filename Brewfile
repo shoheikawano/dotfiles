@@ -18,6 +18,7 @@ brew 'bundletool'
 brew 'firebase-cli'
 brew 'bitrise'
 brew 'pyenv'
+brew 'jadx'
 brew 'coursier/formulas/coursier'
 
 # tap
