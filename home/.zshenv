@@ -18,9 +18,6 @@ export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
 # depot_tools
 export PATH=$PATH:~/depot_tools
 
-# repo
-export PATH=$PATH:~/bin
-
 # flutter
 export PATH=$PATH:~/Library/flutter/bin
 

@@ -43,3 +43,5 @@ autoload -Uz compinit
 compinit
 setopt COMPLETE_ALIASES
 
+# ruby
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
