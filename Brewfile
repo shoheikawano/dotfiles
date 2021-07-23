@@ -20,6 +20,7 @@ brew 'bitrise'
 brew 'pyenv'
 brew 'jadx'
 brew 'coursier/formulas/coursier'
+brew 'scrcpy'
 
 # tap
 
