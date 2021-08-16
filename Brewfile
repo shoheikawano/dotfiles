@@ -21,6 +21,7 @@ brew 'pyenv'
 brew 'jadx'
 brew 'coursier/formulas/coursier'
 brew 'scrcpy'
+brew 'direnv'
 
 # tap
 
