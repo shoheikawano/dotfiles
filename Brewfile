@@ -22,6 +22,7 @@ brew 'jadx'
 brew 'coursier/formulas/coursier'
 brew 'scrcpy'
 brew 'direnv'
+brew 'awscli'
 
 # tap
 

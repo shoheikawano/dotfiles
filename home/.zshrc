@@ -25,10 +25,7 @@ alias adevd='./gradlew assembleDevDebug'
 alias adevr='./gradlew assembleDevRelease'
 alias dep='./gradlew dependencyUpdates'
 alias cap='adb exec-out screencap -p > ~/Desktop/"$(date +"%Y_%m_%d_%I_%M_%S_%p").png"'
-alias sdebug='adb shell am set-debug-app -w --persistent'
-alias cdebug='adb shell am clear-debug-app'
-alias demostart='adb shell settings put global sysui_demo_allowed 1'
-alias demoend='adb shell am broadcast -a com.android.systemui.demo -e command exit'
+alias rec='scrcpy -r ~/Desktop/$(date +%Y_%m_%d_%I_%M_%S_%p).mp4'
 
 # java
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
