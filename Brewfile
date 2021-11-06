@@ -46,7 +46,7 @@ cask 'pngyu'
 cask 'visual-studio-code'
 cask 'zeplin'
 cask 'brave-browser'
-cask 'zoomus'
+cask 'zoom'
 cask 'jetbrains-toolbox'
 cask 'obs'
 
