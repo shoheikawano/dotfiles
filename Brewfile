@@ -57,3 +57,4 @@ mas 'Reeder 3', id: 880001334
 mas 'Slack', id: 803453959
 mas '1Password', id: 1333542190
 mas 'JPEGmini', id: 498944723
+mas 'Divvy - Window Manager', id: 413857545
