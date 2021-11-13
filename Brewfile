@@ -30,22 +30,19 @@ tap 'homebrew/cask-versions'
 
 # cask
 
-cask 'adoptopenjdk8'
-cask 'android-studio'
-cask 'androidtool'
-cask 'android-sdk'
-cask 'android-platform-tools'
-cask 'clipy'
+cask 'jetbrains-toolbox'
+cask 'visual-studio-code'
 cask 'docker'
 cask 'google-chrome'
 cask 'google-drive'
 cask 'google-japanese-ime'
 cask 'google-cloud-sdk'
 cask 'pngyu'
-cask 'visual-studio-code'
 cask 'zeplin'
 cask 'zoom'
-cask 'jetbrains-toolbox'
+cask 'day-o'
+cask 'clipy'
+cask 'authy'
 cask 'obs'
 
 # mas
