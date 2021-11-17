@@ -54,3 +54,4 @@ mas 'Slack', id: 803453959
 mas '1Password', id: 1333542190
 mas 'JPEGmini', id: 498944723
 mas 'Divvy - Window Manager', id: 413857545
+mas 'LINE', id: 539883307
