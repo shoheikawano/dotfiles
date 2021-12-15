@@ -7,8 +7,7 @@ if [ -f ~/.zshrcx ] ; then
 fi
 
 # Android SDK
-export PATH=$PATH:~/Library/Android/sdk/platform-tools
-export ANDROID_HOME=~/Library/Android/sdk/platform-tools
+export ANDROID_HOME=~/Library/Android/sdk
 
 # depot_tools
 export PATH=$PATH:~/depot_tools
