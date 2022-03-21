@@ -28,6 +28,7 @@ alias cap='adb exec-out screencap -p > ~/Desktop/"$(date +"%Y_%m_%d_%I_%M_%S_%p"
 alias rec='scrcpy -r ~/Desktop/$(date +%Y_%m_%d_%I_%M_%S_%p).mp4'
 alias analyticsdebug='adb shell setprop debug.firebase.analytics.app '
 alias sc='scrcpy'
+alias h='homesick cd'
 
 # java
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
