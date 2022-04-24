@@ -3,17 +3,6 @@
   email = mail.shoheikawano@gmail.com
 [color]
   ui = auto
-[alias]
-  a = add
-  b = branch
-  bd = branch -d
-  ci = commit
-  co = checkout
-  df = diff
-  p = pull
-  r = reset
-  s = stash
-  st = status
 [pull]
   rebase = false
 [filter "lfs"]
