@@ -2,7 +2,6 @@
 alias g='git '
 alias ga='git add .'
 alias gb='git branch '
-alias gst='g stash'
 alias gs='g status'
 alias gp='g pull'
 alias gpr='g pull --rebase'

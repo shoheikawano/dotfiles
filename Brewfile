@@ -44,6 +44,7 @@ cask 'day-o'
 cask 'clipy'
 cask 'authy'
 cask 'obs'
+cask 'notion'
 
 # mas
 
