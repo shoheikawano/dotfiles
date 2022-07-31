@@ -22,11 +22,14 @@ brew 'coursier/formulas/coursier'
 brew 'scrcpy'
 brew 'direnv'
 brew 'awscli'
+brew 'heroku'
+brew 'asdf'
 
 # tap
 
 tap 'homebrew/cask-cask'
 tap 'homebrew/cask-versions'
+tap 'heroku/brew'
 
 # cask
 

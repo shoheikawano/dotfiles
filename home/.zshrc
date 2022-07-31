@@ -52,3 +52,5 @@ export NVM_DIR="$HOME/.nvm"
 
 export SDK_MANAGER="~/Library/Android/sdk/tools/bin/sdkmanager"
 export CMD_LINE_TOOLS="~/Library/Android/sdk/cmdline-tools/latest"
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
