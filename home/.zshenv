@@ -8,6 +8,11 @@ fi
 
 # Android SDK
 export ANDROID_HOME=~/Library/Android/sdk
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+
+# Java
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+export PATH=$PATH:$JAVA_HOME/bin
 
 # depot_tools
 export PATH=$PATH:~/depot_tools
@@ -26,3 +31,6 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 
 # ruby
 export PATH="$HOME/.rbenv/bin:$PATH"
+
+# homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
