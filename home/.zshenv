@@ -8,6 +8,11 @@ fi
 
 # Android SDK
 export ANDROID_HOME=~/Library/Android/sdk
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+
+# Java
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+export PATH=$PATH:$JAVA_HOME/bin
 
 # ADB
 export ADB_HOME=/Library/Android/sdk/platform-tools
