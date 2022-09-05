@@ -48,6 +48,7 @@ cask 'clipy'
 cask 'authy'
 cask 'obs'
 cask 'notion'
+cask 'ticktick'
 
 # mas
 
