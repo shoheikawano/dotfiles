@@ -25,12 +25,14 @@ brew 'awscli'
 brew 'heroku'
 brew 'asdf'
 brew 'cocoapods'
+brew 'maestro'
 
 # tap
 
 tap 'homebrew/cask-cask'
 tap 'homebrew/cask-versions'
 tap 'heroku/brew'
+tap 'mobile-dev-inc/tap'
 
 # cask
 
