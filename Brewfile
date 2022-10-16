@@ -24,6 +24,7 @@ brew 'direnv'
 brew 'awscli'
 brew 'heroku'
 brew 'asdf'
+brew 'cocoapods'
 
 # tap
 
