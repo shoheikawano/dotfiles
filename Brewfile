@@ -26,6 +26,7 @@ brew 'heroku'
 brew 'asdf'
 brew 'cocoapods'
 brew 'maestro'
+brew 'kdoctor'
 
 # tap
 
