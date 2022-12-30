@@ -15,7 +15,6 @@ brew 'github/gh'
 brew 'ffmpeg'
 brew 'bundletool'
 brew 'firebase-cli'
-brew 'bitrise'
 brew 'pyenv'
 brew 'jadx'
 brew 'coursier/formulas/coursier'
@@ -32,7 +31,6 @@ brew 'kdoctor'
 
 tap 'homebrew/cask-cask'
 tap 'homebrew/cask-versions'
-tap 'heroku/brew'
 tap 'mobile-dev-inc/tap'
 
 # cask
