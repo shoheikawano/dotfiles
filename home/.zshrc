@@ -15,6 +15,7 @@ alias gci='g commit -m '
 alias gcp='g cherry-pick '
 alias gr='g reset HEAD '
 alias gsi='git switch '
+alias gco='git checkout '
 
 alias uninst='adb uninstall '
 alias instd='gw installDebug'
