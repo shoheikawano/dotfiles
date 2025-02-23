@@ -57,4 +57,3 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export SDK_MANAGER="~/Library/Android/sdk/tools/bin/sdkmanager"
 export CMD_LINE_TOOLS="~/Library/Android/sdk/cmdline-tools/latest"
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
