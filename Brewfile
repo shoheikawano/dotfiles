@@ -35,6 +35,7 @@ cask 'clipy'
 cask 'authy'
 cask 'notion'
 cask 'tomatobar'
+cask 'proxyman'
 
 # mas
 
