@@ -15,8 +15,6 @@ brew 'kdoctor'
 
 # tap
 
-tap 'homebrew/cask-cask'
-tap 'homebrew/cask-versions'
 tap 'mobile-dev-inc/tap'
 
 # cask
