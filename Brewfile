@@ -9,6 +9,7 @@ brew 'zsh-syntax-highlighting'
 
 brew 'curl'
 brew 'git'
+brew 'gh'
 brew 'gradle'
 brew 'kotlin'
 brew 'mas'
