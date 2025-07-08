@@ -20,6 +20,7 @@ brew 'wget'
 brew 'scrcpy'
 brew 'maestro'
 brew 'kdoctor'
+brew 'node'
 
 # cask
 
