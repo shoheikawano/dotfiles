@@ -32,6 +32,7 @@ cask 'zoom'
 cask 'clipy'
 cask 'tomatobar'
 cask 'proxyman'
+cask 'iterm2'
 
 # mas
 
