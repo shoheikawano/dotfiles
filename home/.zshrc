@@ -45,8 +45,7 @@ ZSH_AUTOSUGGEST_USE_ASYNC=1 # Async suggestions for better performance
 alias cap='adb shell screencap -p /sdcard/screen.png && adb pull /sdcard/screen.png ~/Desktop/"$(date +"%Y_%m_%d_%I_%M_%S_%p").png" && adb shell rm /sdcard/screen.png'
 
 # git
-alias c='clear'
-alias cl='claude '
+alias c='claude'
 alias g='git '
 alias ga='git add .'
 alias gb='git branch '
