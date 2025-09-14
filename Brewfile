@@ -26,7 +26,8 @@ brew 'openjdk@17'
 # cask
 
 cask 'jetbrains-toolbox'
-cask 'visual-studio-code'
+cask 'claude'
+cask 'claude-code'
 cask 'google-chrome'
 cask 'google-japanese-ime'
 cask 'zoom'
@@ -34,6 +35,7 @@ cask 'clipy'
 cask 'tomatobar'
 cask 'proxyman'
 cask 'iterm2'
+cask 'figma'
 
 # mas
 
