@@ -11,7 +11,7 @@ export ANDROID_HOME=~/Library/Android/sdk
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 
 # Java
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+export JAVA_HOME=/opt/homebrew/opt/openjdk@17
 export PATH=$PATH:$JAVA_HOME/bin
 
 # ADB
@@ -20,9 +20,6 @@ export PATH=$PATH:$ADB_HOME
 
 # depot_tools
 export PATH=$PATH:~/depot_tools
-
-# flutter
-export PATH=$PATH:~/Library/flutter/bin
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
