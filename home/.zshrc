@@ -96,7 +96,6 @@ alias java11='export JAVA_HOME=$JAVA_11_HOME'
 # --------- PATHS --------- #
 
 # Android build
-export JAVA_HOME=~/Library/Java/jdk
 export ANDROID_HOME=~/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools
 export CMD_LINE_TOOLS="~/Library/Android/sdk/cmdline-tools/latest"
