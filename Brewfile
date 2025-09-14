@@ -21,6 +21,7 @@ brew 'scrcpy'
 brew 'maestro'
 brew 'kdoctor'
 brew 'node'
+brew 'openjdk@17'
 
 # cask
 
