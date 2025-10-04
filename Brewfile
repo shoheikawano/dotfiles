@@ -22,6 +22,7 @@ brew 'maestro'
 brew 'kdoctor'
 brew 'node'
 brew 'openjdk@17'
+brew 'neovim'
 
 # cask
 
