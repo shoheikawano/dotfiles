@@ -33,5 +33,8 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 # ruby
 export PATH="$HOME/.rbenv/bin:$PATH"
 
+# .local
+export PATH="$HOME/.local/bin:$PATH"
+
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
