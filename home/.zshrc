@@ -46,6 +46,7 @@ alias cap='adb shell screencap -p /sdcard/screen.png && adb pull /sdcard/screen.
 
 # git
 alias c='claude'
+alias cl='clear'
 alias g='git '
 alias ga='git add .'
 alias gb='git branch '
