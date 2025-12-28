@@ -37,6 +37,7 @@ cask 'tomatobar'
 cask 'proxyman'
 cask 'iterm2'
 cask 'figma'
+cask 'obsidian'
 
 # mas
 

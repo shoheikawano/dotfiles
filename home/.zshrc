@@ -118,3 +118,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 export PATH="$HOME/.local/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/shoheikawano/.antigravity/antigravity/bin:$PATH"
