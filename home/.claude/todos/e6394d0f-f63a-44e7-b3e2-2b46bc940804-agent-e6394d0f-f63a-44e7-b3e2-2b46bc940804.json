@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Search for all occurrences of old blog links",
+    "status": "completed",
+    "activeForm": "Searching for all occurrences of old blog links"
+  },
+  {
+    "content": "Understand the new article structure in the repo",
+    "status": "in_progress",
+    "activeForm": "Understanding the new article structure in the repo"
+  },
+  {
+    "content": "Create mapping of old URLs to new paths",
+    "status": "pending",
+    "activeForm": "Creating mapping of old URLs to new paths"
+  },
+  {
+    "content": "Replace all old links with new repository-based links",
+    "status": "pending",
+    "activeForm": "Replacing all old links with new repository-based links"
+  }
+]

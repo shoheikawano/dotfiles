@@ -1,0 +1,32 @@
+2026-01-02T18:20:18.562Z [DEBUG] Detected deletion of /Users/shoheikawano/.claude/settings.json
+2026-01-02T18:20:18.563Z [DEBUG] Settings changed from userSettings, updating AppState
+2026-01-02T18:20:18.564Z [DEBUG] Detected deletion of /Users/shoheikawano/.claude/settings.local.json
+2026-01-02T18:20:18.564Z [DEBUG] Settings changed from localSettings, updating AppState
+2026-01-02T18:20:20.905Z [DEBUG] Getting matching hook commands for Notification with query: idle_prompt
+2026-01-02T18:20:20.906Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:20:20.906Z [DEBUG] Matched 0 unique hooks for query "idle_prompt" (0 before deduplication)
+2026-01-02T18:20:20.907Z [ERROR] Error: Error: ENOENT: no such file or directory, open '/Users/shoheikawano/.claude/statsig/statsig.session_id.2656274335'
+    at writeFileSync (unknown)
+    at setItem (/$bunfs/root/claude:114:86855)
+    at setItem (/$bunfs/root/claude:114:26895)
+    at Zi0 (/$bunfs/root/claude:114:27199)
+    at En0 (/$bunfs/root/claude:114:51852)
+    at Xn0 (/$bunfs/root/claude:114:51285)
+    at get (/$bunfs/root/claude:114:50882)
+    at get (/$bunfs/root/claude:114:50778)
+    at kn0 (/$bunfs/root/claude:114:58630)
+    at _getInternalRequestArgs (/$bunfs/root/claude:114:58401)
+2026-01-02T18:20:20.908Z [ERROR] Error: Error: ENOENT: no such file or directory, open '/Users/shoheikawano/.claude/statsig/statsig.session_id.2656274335'
+    at writeFileSync (unknown)
+    at setItem (/$bunfs/root/claude:114:86855)
+    at setItem (/$bunfs/root/claude:114:26895)
+    at Zi0 (/$bunfs/root/claude:114:27199)
+    at En0 (/$bunfs/root/claude:114:51852)
+    at Xn0 (/$bunfs/root/claude:114:51285)
+    at get (/$bunfs/root/claude:114:50882)
+    at get (/$bunfs/root/claude:114:50778)
+    at <anonymous> (/$bunfs/root/claude:114:56695)
+    at <anonymous> (/$bunfs/root/claude:114:52455)
+2026-01-02T18:20:30.578Z [DEBUG] Getting matching hook commands for SessionEnd with query: prompt_input_exit
+2026-01-02T18:20:30.578Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:20:30.578Z [DEBUG] Matched 0 unique hooks for query "prompt_input_exit" (0 before deduplication)
