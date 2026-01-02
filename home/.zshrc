@@ -68,6 +68,9 @@ alias gw='./gradlew'
 alias sc='scrcpy'
 alias rec='scrcpy -r ~/Desktop/$(date +%Y_%m_%d_%I_%M_%S_%p).mp4'
 
+# zsh
+alias sz='source ~/.zshrc'
+
 # --------- FUNCTIONS --------- #
 function gm() {
   if ! git rev-parse --git-dir > /dev/null 2>&1; then
