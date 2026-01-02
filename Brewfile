@@ -23,6 +23,7 @@ brew 'kdoctor'
 brew 'node'
 brew 'openjdk@17'
 brew 'neovim'
+brew 'terminal-notifier'
 
 # cask
 
