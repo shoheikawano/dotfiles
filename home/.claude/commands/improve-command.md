@@ -14,7 +14,7 @@ Analyze the current session's message history to identify opportunities for impr
    - Look for requests that existing commands don't handle well
 
 2. **Analyze Existing Commands**:
-   - Read relevant command files from `~/.claude/commands/`
+   - Read relevant command files from `~/.claude/commands/` (always try .md extension first)
    - Identify which commands could be enhanced
    - Compare current command capabilities with user needs
 
@@ -40,7 +40,7 @@ Analyze the current session's message history to identify opportunities for impr
 ## Key Focus Areas
 
 - **Workflow Efficiency**: Reduce manual steps and repetitive tasks
-- **Integration Gaps**: Better use of MCP tools and external services  
+- **Integration Gaps**: Better use of skills(.claude/skills), MCP tools and external services  
 - **User Experience**: More intuitive prompts and interactions
 - **Error Handling**: Better handling of edge cases and failures
 - **Tool Utilization**: Leveraging available tools more effectively
@@ -48,11 +48,12 @@ Analyze the current session's message history to identify opportunities for impr
 ## Process
 
 1. Ask user which command(s) they want to improve based on recent usage
-2. Analyze the current command definition and user feedback
-3. Propose specific enhancements with clear rationale
-4. Show before/after comparison of the command
-5. Get user approval before implementing changes
-6. Update the command file with improvements
-7. Suggest testing the improved command
+2. **Read command files**: Always try `command-name.md` extension first, then fallback to `command-name` if needed
+3. Analyze the current command definition and user feedback
+4. Propose specific enhancements with clear rationale
+5. Show before/after comparison of the command
+6. Get user approval before implementing changes
+7. Update the relevant command file with improvements
+8. Suggest testing the improved command
 
 **Focus on practical improvements that will genuinely boost productivity based on real usage patterns.**
