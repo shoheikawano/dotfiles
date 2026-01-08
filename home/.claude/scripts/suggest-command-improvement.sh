@@ -2,7 +2,7 @@
 
 # Suggest command improvements based on session activity
 # This script creates a marker file that Claude can check
-# to determine if /improve-command should be suggested
+# to determine if /reflect should be suggested
 
 set -e
 
