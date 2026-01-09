@@ -41,11 +41,9 @@ ZSH_AUTOSUGGEST_USE_ASYNC=1 # Async suggestions for better performance
 
 # --------- ALIASES --------- #
 
-# screenshot
-alias cap='adb shell screencap -p /sdcard/screen.png && adb pull /sdcard/screen.png ~/Desktop/"$(date +"%Y_%m_%d_%I_%M_%S_%p").png" && adb shell rm /sdcard/screen.png'
-
 # git
 alias c='claude'
+alias yolo='claude --dangerously-skip-permissions'
 alias cl='clear'
 alias g='git '
 alias ga='git add .'
@@ -56,15 +54,16 @@ alias gd='git diff '
 alias gp='git pull '
 alias gs='git status'
 alias gsi='git switch '
-alias gst='git stash '
 alias gl='git log '
-alias grm='git pull --rebase origin main'
 
 # gradle
 alias gc='./gradlew clean'
 alias gw='./gradlew'
 
-# scrcpy
+# screenshot
+alias cap='adb shell screencap -p /sdcard/screen.png && adb pull /sdcard/screen.png ~/Desktop/"$(date +"%Y_%m_%d_%I_%M_%S_%p").png" && adb shell rm /sdcard/screen.png'
+
+# screen recording
 alias sc='scrcpy'
 alias rec='scrcpy -r ~/Desktop/$(date +%Y_%m_%d_%I_%M_%S_%p).mp4'
 
@@ -121,6 +120,3 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 export PATH="$HOME/.local/bin:$PATH"
-
-# Added by Antigravity
-export PATH="/Users/shoheikawano/.antigravity/antigravity/bin:$PATH"
