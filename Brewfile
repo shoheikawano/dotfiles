@@ -7,7 +7,6 @@ tap 'mobile-dev-inc/tap'
 brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
 
-brew 'curl'
 brew 'git'
 brew 'gh'
 brew 'gradle'
