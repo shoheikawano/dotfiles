@@ -321,3 +321,1266 @@
 2026-01-02T18:25:20.764Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
 2026-01-02T18:25:21.488Z [DEBUG] Stream started - received first chunk
 2026-01-02T18:25:22.833Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:25:34.818Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2026-01-02T18:25:34.822Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2026-01-02T18:25:34.822Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:25:34.822Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2026-01-02T18:25:34.838Z [DEBUG] Writing to temp file: /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json.tmp.23372.1767378334838
+2026-01-02T18:25:34.838Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:25:34.838Z [DEBUG] Temp file written successfully, size: 684 bytes
+2026-01-02T18:25:34.838Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:25:34.838Z [DEBUG] Renaming /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json.tmp.23372.1767378334838 to /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json
+2026-01-02T18:25:34.838Z [DEBUG] File /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json written atomically
+2026-01-02T18:25:34.846Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2026-01-02T18:25:34.846Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:25:34.846Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2026-01-02T18:25:34.850Z [DEBUG] executePreToolHooks called for tool: Bash
+2026-01-02T18:25:34.858Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2026-01-02T18:25:34.858Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:25:34.858Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-02T18:25:34.887Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2026-01-02T18:25:34.897Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2026-01-02T18:25:34.897Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:25:34.897Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-02T18:25:40.892Z [DEBUG] Getting matching hook commands for Notification with query: permission_prompt
+2026-01-02T18:25:40.892Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:25:40.893Z [DEBUG] Matched 0 unique hooks for query "permission_prompt" (0 before deduplication)
+2026-01-02T18:25:43.722Z [DEBUG] Detected Homebrew cask installation: /opt/homebrew/Caskroom/claude-code/2.0.76/claude
+2026-01-02T18:25:43.723Z [DEBUG] AutoUpdaterWrapper: Installation type: package-manager
+2026-01-02T18:25:44.480Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2026-01-02T18:25:44.480Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:25:44.480Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-02T18:25:44.494Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:25:44.494Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:25:44.494Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:25:44.494Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:25:44.951Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:25:46.710Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:25:53.837Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2026-01-02T18:25:53.840Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2026-01-02T18:25:53.840Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:25:53.840Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2026-01-02T18:25:53.854Z [DEBUG] Writing to temp file: /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json.tmp.23372.1767378353854
+2026-01-02T18:25:53.854Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:25:53.855Z [DEBUG] Temp file written successfully, size: 686 bytes
+2026-01-02T18:25:53.855Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:25:53.855Z [DEBUG] Renaming /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json.tmp.23372.1767378353854 to /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json
+2026-01-02T18:25:53.855Z [DEBUG] File /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json written atomically
+2026-01-02T18:25:53.862Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2026-01-02T18:25:53.862Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:25:53.862Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2026-01-02T18:25:53.874Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:25:53.877Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:25:53.877Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:25:53.877Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:25:53.906Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:25:53.906Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:25:53.906Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:25:53.912Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:25:53.912Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:25:53.912Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:25:53.912Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:25:56.096Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:26:17.094Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:17.104Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:17.104Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:17.104Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:17.125Z [DEBUG] Permission suggestions for Edit: [
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+2026-01-02T18:26:17.160Z [DEBUG] executePermissionRequestHooks called for tool: Edit
+2026-01-02T18:26:17.179Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Edit
+2026-01-02T18:26:17.179Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:17.179Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.127Z [DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+2026-01-02T18:26:19.129Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379129
+2026-01-02T18:26:19.129Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:19.130Z [DEBUG] Temp file written successfully, size: 2534 bytes
+2026-01-02T18:26:19.130Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:19.130Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379129 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:19.130Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:19.134Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:19.146Z [DEBUG] Detected Homebrew cask installation: /opt/homebrew/Caskroom/claude-code/2.0.76/claude
+2026-01-02T18:26:19.146Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:26:19.147Z [DEBUG] AutoUpdaterWrapper: Installation type: package-manager
+2026-01-02T18:26:19.154Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:19.154Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.154Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.190Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:19.198Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:19.198Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.198Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.234Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379234
+2026-01-02T18:26:19.234Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:19.234Z [DEBUG] Temp file written successfully, size: 2509 bytes
+2026-01-02T18:26:19.234Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:19.234Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379234 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:19.234Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:19.256Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:19.256Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.256Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.290Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:19.301Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:19.301Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.301Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.342Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379342
+2026-01-02T18:26:19.342Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:19.343Z [DEBUG] Temp file written successfully, size: 2484 bytes
+2026-01-02T18:26:19.343Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:19.343Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379342 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:19.343Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:19.368Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:19.368Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.368Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.407Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:19.419Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:19.419Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.419Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.463Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379463
+2026-01-02T18:26:19.463Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:19.464Z [DEBUG] Temp file written successfully, size: 2459 bytes
+2026-01-02T18:26:19.464Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:19.464Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379463 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:19.464Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:19.492Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:19.492Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.492Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.530Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:19.546Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:19.546Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.546Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.591Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379591
+2026-01-02T18:26:19.591Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:19.591Z [DEBUG] Temp file written successfully, size: 2434 bytes
+2026-01-02T18:26:19.591Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:19.591Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379591 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:19.592Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:19.623Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:19.623Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.623Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.668Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:19.687Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:19.687Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.687Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.738Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379738
+2026-01-02T18:26:19.738Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:19.738Z [DEBUG] Temp file written successfully, size: 2409 bytes
+2026-01-02T18:26:19.738Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:19.738Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379738 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:19.738Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:19.775Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:19.775Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.775Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.820Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:19.841Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:19.841Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.841Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.896Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379896
+2026-01-02T18:26:19.896Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:19.897Z [DEBUG] Temp file written successfully, size: 2384 bytes
+2026-01-02T18:26:19.897Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:19.897Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378379896 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:19.897Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:19.934Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:19.934Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:19.934Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:19.985Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:20.008Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:20.008Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:20.008Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:20.072Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378380072
+2026-01-02T18:26:20.072Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:20.072Z [DEBUG] Temp file written successfully, size: 2359 bytes
+2026-01-02T18:26:20.072Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:20.072Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378380072 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:20.072Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:20.115Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:20.115Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:20.115Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:20.168Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:20.191Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:20.191Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:20.191Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:20.259Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378380259
+2026-01-02T18:26:20.259Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:20.259Z [DEBUG] Temp file written successfully, size: 2334 bytes
+2026-01-02T18:26:20.259Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:20.259Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378380259 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:20.259Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:20.305Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:20.305Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:20.305Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:20.361Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:20.386Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:20.386Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:20.386Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:20.458Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378380458
+2026-01-02T18:26:20.458Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:20.458Z [DEBUG] Temp file written successfully, size: 2309 bytes
+2026-01-02T18:26:20.458Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:20.458Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378380458 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:20.458Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:20.506Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:20.506Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:20.506Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:20.564Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:20.590Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:20.590Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:20.590Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:20.666Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378380666
+2026-01-02T18:26:20.666Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:20.666Z [DEBUG] Temp file written successfully, size: 2284 bytes
+2026-01-02T18:26:20.667Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:20.667Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378380666 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:20.667Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:20.717Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:20.717Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:20.717Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:20.778Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:20.807Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:20.807Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:20.807Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:20.888Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378380888
+2026-01-02T18:26:20.888Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:20.888Z [DEBUG] Temp file written successfully, size: 2259 bytes
+2026-01-02T18:26:20.888Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:20.888Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378380888 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:20.889Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:20.941Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:20.941Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:20.941Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:21.005Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:21.035Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:21.035Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:21.035Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:21.120Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378381120
+2026-01-02T18:26:21.120Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:21.121Z [DEBUG] Temp file written successfully, size: 2234 bytes
+2026-01-02T18:26:21.121Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:21.121Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md.tmp.23372.1767378381120 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md
+2026-01-02T18:26:21.121Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2020/index.md written atomically
+2026-01-02T18:26:21.183Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:21.183Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:21.183Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:21.298Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:26:21.298Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:26:21.298Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:26:21.298Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:26:24.363Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:26:31.746Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:26:31.749Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:26:31.749Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:31.749Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:26:31.778Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:26:31.778Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:31.778Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:26:31.784Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:26:31.784Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:26:31.784Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:26:31.784Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:26:34.312Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:26:54.702Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:54.715Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:54.715Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:54.715Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:54.772Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378414772
+2026-01-02T18:26:54.772Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:54.772Z [DEBUG] Temp file written successfully, size: 3106 bytes
+2026-01-02T18:26:54.772Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:54.772Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378414772 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:54.772Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:54.775Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:54.787Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:26:54.805Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:54.805Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:54.805Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:54.849Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:54.874Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:54.874Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:54.874Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:54.922Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378414922
+2026-01-02T18:26:54.922Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:54.922Z [DEBUG] Temp file written successfully, size: 3081 bytes
+2026-01-02T18:26:54.922Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:54.922Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378414922 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:54.923Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:54.950Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:54.950Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:54.950Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:54.988Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:55.006Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:55.006Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:55.006Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:55.070Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378415070
+2026-01-02T18:26:55.070Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:55.071Z [DEBUG] Temp file written successfully, size: 3056 bytes
+2026-01-02T18:26:55.071Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:55.071Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378415070 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:55.071Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:55.098Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:55.098Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:55.098Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:55.143Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:55.161Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:55.161Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:55.161Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:55.212Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378415212
+2026-01-02T18:26:55.212Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:55.213Z [DEBUG] Temp file written successfully, size: 3031 bytes
+2026-01-02T18:26:55.213Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:55.213Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378415212 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:55.213Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:55.245Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:55.245Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:55.245Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:55.285Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:55.304Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:55.304Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:55.304Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:55.368Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378415368
+2026-01-02T18:26:55.368Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:55.368Z [DEBUG] Temp file written successfully, size: 3006 bytes
+2026-01-02T18:26:55.369Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:55.369Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378415368 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:55.369Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:55.403Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:55.403Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:55.403Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:55.449Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:55.470Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:55.470Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:55.470Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:55.534Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378415534
+2026-01-02T18:26:55.534Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:55.534Z [DEBUG] Temp file written successfully, size: 2981 bytes
+2026-01-02T18:26:55.534Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:55.534Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378415534 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:55.534Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:55.579Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:55.579Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:55.579Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:55.628Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:55.650Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:55.650Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:55.650Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:55.720Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378415720
+2026-01-02T18:26:55.720Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:55.721Z [DEBUG] Temp file written successfully, size: 2956 bytes
+2026-01-02T18:26:55.721Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:55.721Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378415720 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:55.721Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:55.762Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:55.762Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:55.762Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:55.814Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:55.837Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:55.837Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:55.837Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:55.904Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378415904
+2026-01-02T18:26:55.904Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:55.904Z [DEBUG] Temp file written successfully, size: 2931 bytes
+2026-01-02T18:26:55.904Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:55.904Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378415904 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:55.904Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:55.947Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:55.947Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:55.947Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:56.002Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:56.035Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:56.035Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:56.035Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:56.107Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378416107
+2026-01-02T18:26:56.107Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:56.107Z [DEBUG] Temp file written successfully, size: 2906 bytes
+2026-01-02T18:26:56.107Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:56.107Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378416107 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:56.108Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:56.156Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:56.156Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:56.156Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:56.215Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:56.243Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:56.243Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:56.243Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:56.319Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378416319
+2026-01-02T18:26:56.319Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:56.319Z [DEBUG] Temp file written successfully, size: 2881 bytes
+2026-01-02T18:26:56.319Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:56.319Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378416319 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:56.320Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:56.371Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:56.371Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:56.371Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:56.432Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:56.460Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:56.460Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:56.460Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:56.543Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378416543
+2026-01-02T18:26:56.543Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:56.543Z [DEBUG] Temp file written successfully, size: 2856 bytes
+2026-01-02T18:26:56.543Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:56.543Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378416543 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:56.543Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:56.597Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:56.597Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:56.597Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:56.661Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:56.690Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:56.690Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:56.690Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:56.785Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378416785
+2026-01-02T18:26:56.785Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:56.785Z [DEBUG] Temp file written successfully, size: 2831 bytes
+2026-01-02T18:26:56.785Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:56.785Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378416785 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:56.785Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:56.845Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:56.845Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:56.845Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:56.914Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:26:56.947Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:26:56.947Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:56.947Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:57.038Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378417038
+2026-01-02T18:26:57.038Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:26:57.038Z [DEBUG] Temp file written successfully, size: 2806 bytes
+2026-01-02T18:26:57.038Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:26:57.038Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md.tmp.23372.1767378417038 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md
+2026-01-02T18:26:57.038Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2021/index.md written atomically
+2026-01-02T18:26:57.099Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:26:57.099Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:26:57.099Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:26:57.215Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:26:57.215Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:26:57.215Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:26:57.215Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:27:00.625Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:27:03.726Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:27:03.729Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:27:03.730Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:03.730Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:03.752Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:27:03.752Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:03.752Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:03.761Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:27:03.761Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:27:03.761Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:27:03.761Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:27:06.086Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:27:09.717Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:27:09.720Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:27:09.720Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:09.720Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:27:09.736Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2022/index.md.tmp.23372.1767378429736
+2026-01-02T18:27:09.736Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:27:09.736Z [DEBUG] Temp file written successfully, size: 1323 bytes
+2026-01-02T18:27:09.736Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:27:09.736Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2022/index.md.tmp.23372.1767378429736 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2022/index.md
+2026-01-02T18:27:09.737Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2022/index.md written atomically
+2026-01-02T18:27:09.739Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2022/index.md
+2026-01-02T18:27:09.743Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:27:09.746Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:27:09.746Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:09.746Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:27:09.765Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:27:09.765Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:27:09.765Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:27:09.765Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:27:11.777Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:27:17.073Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:27:17.074Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:27:17.074Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:27:17.074Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:27:17.074Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:27:17.080Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:27:17.080Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:17.080Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:17.080Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:27:17.080Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:17.080Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:17.080Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:27:17.080Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:17.080Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:17.080Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:27:17.080Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:17.080Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:17.080Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:27:17.080Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:17.080Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:17.118Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:27:17.118Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:17.118Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:17.118Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:27:17.118Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:17.118Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:17.118Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:27:17.118Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:17.118Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:17.118Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:27:17.118Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:17.118Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:17.118Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:27:17.118Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:17.118Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:17.140Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:27:17.140Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:27:17.140Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:27:17.140Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:27:20.356Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:27:39.127Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:27:39.132Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:27:39.132Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:39.132Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:27:39.152Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2025_the_second_half/index.md.tmp.23372.1767378459152
+2026-01-02T18:27:39.152Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:27:39.152Z [DEBUG] Temp file written successfully, size: 3365 bytes
+2026-01-02T18:27:39.153Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:27:39.153Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2025_the_second_half/index.md.tmp.23372.1767378459152 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2025_the_second_half/index.md
+2026-01-02T18:27:39.153Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2025_the_second_half/index.md written atomically
+2026-01-02T18:27:39.155Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_2025_the_second_half/index.md
+2026-01-02T18:27:39.160Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:27:39.164Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:27:39.164Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:39.164Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:27:39.240Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:27:39.265Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:27:39.265Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:39.265Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:27:39.335Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_february_2019/index.md.tmp.23372.1767378459335
+2026-01-02T18:27:39.335Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:27:39.335Z [DEBUG] Temp file written successfully, size: 1970 bytes
+2026-01-02T18:27:39.335Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:27:39.335Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_february_2019/index.md.tmp.23372.1767378459335 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_february_2019/index.md
+2026-01-02T18:27:39.335Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_february_2019/index.md written atomically
+2026-01-02T18:27:39.339Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_february_2019/index.md
+2026-01-02T18:27:39.358Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:27:39.392Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:27:39.392Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:39.392Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:27:39.460Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:27:39.495Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:27:39.495Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:39.495Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:27:39.594Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_droidkaigi_2019/index.md.tmp.23372.1767378459594
+2026-01-02T18:27:39.594Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:27:39.594Z [DEBUG] Temp file written successfully, size: 1936 bytes
+2026-01-02T18:27:39.594Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:27:39.594Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_droidkaigi_2019/index.md.tmp.23372.1767378459594 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_droidkaigi_2019/index.md
+2026-01-02T18:27:39.595Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_droidkaigi_2019/index.md written atomically
+2026-01-02T18:27:39.599Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_droidkaigi_2019/index.md
+2026-01-02T18:27:39.640Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:27:39.659Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:27:39.659Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:39.659Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:27:39.755Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:27:39.790Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:27:39.790Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:39.790Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:27:39.897Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_january_2019/index.md.tmp.23372.1767378459897
+2026-01-02T18:27:39.897Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:27:39.898Z [DEBUG] Temp file written successfully, size: 2143 bytes
+2026-01-02T18:27:39.898Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:27:39.898Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_january_2019/index.md.tmp.23372.1767378459897 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_january_2019/index.md
+2026-01-02T18:27:39.898Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_january_2019/index.md written atomically
+2026-01-02T18:27:39.903Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_january_2019/index.md
+2026-01-02T18:27:39.923Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:27:39.941Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:27:39.941Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:39.941Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:27:40.008Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:27:40.043Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:27:40.043Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:40.043Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:27:40.147Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_january_2021/index.md.tmp.23372.1767378460147
+2026-01-02T18:27:40.147Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:27:40.147Z [DEBUG] Temp file written successfully, size: 1208 bytes
+2026-01-02T18:27:40.147Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:27:40.147Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_january_2021/index.md.tmp.23372.1767378460147 to /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_january_2021/index.md
+2026-01-02T18:27:40.147Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_january_2021/index.md written atomically
+2026-01-02T18:27:40.152Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/ja/posts/look_back_january_2021/index.md
+2026-01-02T18:27:40.182Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:27:40.214Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:27:40.214Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:40.214Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:27:40.287Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:27:40.287Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:27:40.287Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:27:40.287Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:27:44.836Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:27:50.621Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:27:50.622Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:27:50.622Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:27:50.629Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:27:50.629Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:50.629Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:50.629Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:27:50.629Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:50.629Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:50.629Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:27:50.629Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:50.629Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:50.658Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:27:50.658Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:50.658Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:50.658Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:27:50.658Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:50.658Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:50.658Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:27:50.658Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:50.658Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:50.666Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:27:50.666Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:27:50.666Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:27:50.666Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:27:53.106Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:27:55.871Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:27:55.875Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:27:55.875Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:55.875Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:55.907Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:27:55.907Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:27:55.907Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:27:55.914Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:27:55.914Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:27:55.914Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:27:55.914Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:27:58.468Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:28:17.598Z [DEBUG] Detected change to /Users/shoheikawano/Documents/shoheikawano.com/.claude/settings.local.json
+2026-01-02T18:28:17.600Z [DEBUG] Settings changed from localSettings, updating AppState
+2026-01-02T18:28:17.601Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 23 rule(s): ["Bash(cat:*)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com config --local -l)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com log --oneline -10)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com status)","Bash(git add:*)","Bash(git commit:*)","Bash(git push:*)","Bash(python3:*)","Bash(hugo server:*)","Bash(hugo:*)","Bash(ls:*)","Bash(find:*)","Bash(xargs basename:*)","Bash(for article in look_back_2020 look_back_2021 from26_to_27 look_back_droidkaigi_2019 look_back_january_2020 look_back_2025_the_first_half look_back_all_2019)","Bash(do)","Bash(if [ -d \"content/ja/posts/$article\" ])","Bash(then)","Bash(echo:*)","Bash(fi)","Bash(if [ -d \"content/en/posts/$article\" ])","Bash(done)","Bash(while read file)","Bash(perl -i -pe:*)"]
+2026-01-02T18:28:18.749Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:18.763Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:18.763Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:18.763Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:18.818Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378498818
+2026-01-02T18:28:18.818Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:18.818Z [DEBUG] Temp file written successfully, size: 4265 bytes
+2026-01-02T18:28:18.818Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:18.818Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378498818 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:18.818Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:18.824Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:18.857Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:28:18.870Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:18.870Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:18.870Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:18.957Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:18.991Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:18.991Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:18.991Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:19.097Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378499097
+2026-01-02T18:28:19.097Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:19.097Z [DEBUG] Temp file written successfully, size: 4240 bytes
+2026-01-02T18:28:19.097Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:19.097Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378499097 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:19.097Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:19.164Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:19.164Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:19.164Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:19.209Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:19.238Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:19.238Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:19.238Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:19.316Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378499316
+2026-01-02T18:28:19.316Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:19.316Z [DEBUG] Temp file written successfully, size: 4215 bytes
+2026-01-02T18:28:19.317Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:19.317Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378499316 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:19.317Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:19.383Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:19.383Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:19.383Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:19.451Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:19.486Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:19.486Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:19.486Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:19.586Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378499586
+2026-01-02T18:28:19.586Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:19.587Z [DEBUG] Temp file written successfully, size: 4190 bytes
+2026-01-02T18:28:19.587Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:19.587Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378499586 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:19.587Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:19.651Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:19.651Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:19.651Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:19.717Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:19.738Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:19.738Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:19.738Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:19.836Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378499836
+2026-01-02T18:28:19.836Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:19.836Z [DEBUG] Temp file written successfully, size: 4165 bytes
+2026-01-02T18:28:19.836Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:19.836Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378499836 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:19.837Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:19.903Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:19.903Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:19.903Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:19.971Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:20.006Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:20.006Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:20.006Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:20.110Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378500110
+2026-01-02T18:28:20.110Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:20.111Z [DEBUG] Temp file written successfully, size: 4140 bytes
+2026-01-02T18:28:20.111Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:20.111Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378500110 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:20.111Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:20.176Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:20.176Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:20.176Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:20.242Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:20.292Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:20.292Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:20.292Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:20.397Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378500397
+2026-01-02T18:28:20.397Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:20.397Z [DEBUG] Temp file written successfully, size: 4115 bytes
+2026-01-02T18:28:20.397Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:20.397Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378500397 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:20.397Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:20.467Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:20.467Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:20.467Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:20.535Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:20.570Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:20.570Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:20.570Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:20.679Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378500679
+2026-01-02T18:28:20.679Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:20.679Z [DEBUG] Temp file written successfully, size: 4090 bytes
+2026-01-02T18:28:20.679Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:20.679Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378500679 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:20.679Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:20.755Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:20.755Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:20.755Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:20.825Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:20.861Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:20.861Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:20.861Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:20.966Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378500966
+2026-01-02T18:28:20.966Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:20.966Z [DEBUG] Temp file written successfully, size: 4065 bytes
+2026-01-02T18:28:20.966Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:20.966Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378500966 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:20.966Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:21.030Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:21.030Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:21.030Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:21.106Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:21.142Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:21.142Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:21.142Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:21.245Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378501245
+2026-01-02T18:28:21.245Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:21.245Z [DEBUG] Temp file written successfully, size: 4040 bytes
+2026-01-02T18:28:21.245Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:21.245Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378501245 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:21.245Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:21.312Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:21.312Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:21.312Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:21.417Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:21.451Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:21.451Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:21.451Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:21.554Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378501554
+2026-01-02T18:28:21.554Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:21.554Z [DEBUG] Temp file written successfully, size: 4015 bytes
+2026-01-02T18:28:21.555Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:21.555Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378501554 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:21.555Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:21.622Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:21.622Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:21.622Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:21.728Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:21.764Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:21.764Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:21.764Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:21.869Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378501869
+2026-01-02T18:28:21.869Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:21.869Z [DEBUG] Temp file written successfully, size: 3990 bytes
+2026-01-02T18:28:21.869Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:21.869Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378501869 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:21.870Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:21.935Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:21.935Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:21.935Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:22.075Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:22.110Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:22.110Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:22.110Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:22.214Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378502214
+2026-01-02T18:28:22.214Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:22.214Z [DEBUG] Temp file written successfully, size: 3965 bytes
+2026-01-02T18:28:22.214Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:22.214Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md.tmp.23372.1767378502214 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md
+2026-01-02T18:28:22.215Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2020/index.md written atomically
+2026-01-02T18:28:22.281Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:22.281Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:22.281Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:22.400Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:28:22.400Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:28:22.400Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:28:22.400Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:28:24.987Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:28:27.153Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:28:27.157Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:28:27.157Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:27.157Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:28:27.178Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:28:27.178Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:27.178Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:28:27.185Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:28:27.185Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:28:27.185Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:28:27.185Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:28:29.734Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:28:49.651Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:49.685Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:49.685Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:49.685Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:49.789Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378529789
+2026-01-02T18:28:49.789Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:49.789Z [DEBUG] Temp file written successfully, size: 5372 bytes
+2026-01-02T18:28:49.789Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:49.789Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378529789 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:49.789Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:49.794Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:49.825Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:28:49.857Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:49.857Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:49.857Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:49.924Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:49.964Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:49.964Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:49.964Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:50.057Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378530057
+2026-01-02T18:28:50.057Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:50.057Z [DEBUG] Temp file written successfully, size: 5347 bytes
+2026-01-02T18:28:50.057Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:50.057Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378530057 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:50.057Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:50.139Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:50.139Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:50.139Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:50.208Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:50.242Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:50.242Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:50.242Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:50.348Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378530348
+2026-01-02T18:28:50.348Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:50.348Z [DEBUG] Temp file written successfully, size: 5322 bytes
+2026-01-02T18:28:50.348Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:50.348Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378530348 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:50.349Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:50.416Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:50.416Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:50.416Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:50.485Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:50.516Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:50.516Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:50.516Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:50.626Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378530626
+2026-01-02T18:28:50.626Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:50.626Z [DEBUG] Temp file written successfully, size: 5297 bytes
+2026-01-02T18:28:50.626Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:50.626Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378530626 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:50.626Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:50.695Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:50.695Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:50.695Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:50.764Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:50.799Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:50.799Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:50.799Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:50.905Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378530905
+2026-01-02T18:28:50.906Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:50.906Z [DEBUG] Temp file written successfully, size: 5272 bytes
+2026-01-02T18:28:50.906Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:50.906Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378530905 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:50.906Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:50.973Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:50.973Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:50.973Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:51.041Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:51.076Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:51.076Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:51.076Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:51.174Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378531174
+2026-01-02T18:28:51.174Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:51.174Z [DEBUG] Temp file written successfully, size: 5247 bytes
+2026-01-02T18:28:51.174Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:51.174Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378531174 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:51.174Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:51.257Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:51.257Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:51.257Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:51.325Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:51.360Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:51.360Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:51.360Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:51.462Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378531462
+2026-01-02T18:28:51.462Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:51.462Z [DEBUG] Temp file written successfully, size: 5222 bytes
+2026-01-02T18:28:51.462Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:51.462Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378531462 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:51.462Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:51.529Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:51.529Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:51.529Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:51.600Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:51.633Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:51.633Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:51.633Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:51.741Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378531741
+2026-01-02T18:28:51.741Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:51.741Z [DEBUG] Temp file written successfully, size: 5197 bytes
+2026-01-02T18:28:51.741Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:51.741Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378531741 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:51.741Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:51.810Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:51.810Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:51.810Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:51.914Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:51.948Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:51.948Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:51.948Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:52.050Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378532050
+2026-01-02T18:28:52.050Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:52.050Z [DEBUG] Temp file written successfully, size: 5172 bytes
+2026-01-02T18:28:52.050Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:52.050Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378532050 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:52.050Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:52.119Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:52.119Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:52.119Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:52.222Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:52.289Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:52.289Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:52.289Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:52.399Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378532399
+2026-01-02T18:28:52.399Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:52.399Z [DEBUG] Temp file written successfully, size: 5147 bytes
+2026-01-02T18:28:52.400Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:52.400Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378532399 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:52.400Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:52.468Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:52.468Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:52.468Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:52.573Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:52.606Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:52.606Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:52.606Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:52.709Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378532709
+2026-01-02T18:28:52.709Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:52.709Z [DEBUG] Temp file written successfully, size: 5122 bytes
+2026-01-02T18:28:52.709Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:52.709Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378532709 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:52.709Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:52.777Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:52.777Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:52.777Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:52.880Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:52.915Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:52.915Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:52.915Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:53.052Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378533052
+2026-01-02T18:28:53.052Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:53.052Z [DEBUG] Temp file written successfully, size: 5097 bytes
+2026-01-02T18:28:53.052Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:53.052Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378533052 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:53.053Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:53.153Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:53.153Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:53.153Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:53.258Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:28:53.327Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:28:53.327Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:53.327Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:53.467Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378533467
+2026-01-02T18:28:53.467Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:28:53.467Z [DEBUG] Temp file written successfully, size: 5072 bytes
+2026-01-02T18:28:53.467Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:28:53.467Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md.tmp.23372.1767378533467 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md
+2026-01-02T18:28:53.467Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2021/index.md written atomically
+2026-01-02T18:28:53.603Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:28:53.603Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:28:53.603Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:28:53.722Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:28:53.722Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:28:53.722Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:28:53.722Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:28:56.837Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:29:06.608Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:29:06.613Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:29:06.613Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:06.613Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:29:06.632Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2022/index.md.tmp.23372.1767378546632
+2026-01-02T18:29:06.632Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:29:06.633Z [DEBUG] Temp file written successfully, size: 2589 bytes
+2026-01-02T18:29:06.633Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:29:06.633Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2022/index.md.tmp.23372.1767378546632 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2022/index.md
+2026-01-02T18:29:06.633Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2022/index.md written atomically
+2026-01-02T18:29:06.635Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2022/index.md
+2026-01-02T18:29:06.643Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:29:06.648Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:29:06.648Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:06.648Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:29:06.703Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:29:06.703Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:29:06.703Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:29:06.703Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:29:06.703Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-02T18:29:06.737Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:29:06.737Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:06.737Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:29:06.737Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:29:06.737Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:06.737Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:29:06.737Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:29:06.737Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:06.737Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:29:06.737Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:29:06.737Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:06.737Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:29:06.737Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-02T18:29:06.737Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:06.737Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:29:06.919Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:29:06.919Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:06.919Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:29:06.919Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:29:06.919Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:06.919Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:29:06.919Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:29:06.919Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:06.919Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:29:06.919Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:29:06.919Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:06.919Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:29:06.919Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-02T18:29:06.919Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:06.919Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-02T18:29:06.956Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:29:06.956Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:29:06.956Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:29:06.956Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:29:09.959Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:29:24.205Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:29:24.210Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:29:24.210Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:24.210Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:29:24.232Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2025_the_second_half/index.md.tmp.23372.1767378564232
+2026-01-02T18:29:24.232Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:29:24.232Z [DEBUG] Temp file written successfully, size: 6097 bytes
+2026-01-02T18:29:24.232Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:29:24.232Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2025_the_second_half/index.md.tmp.23372.1767378564232 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2025_the_second_half/index.md
+2026-01-02T18:29:24.233Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2025_the_second_half/index.md written atomically
+2026-01-02T18:29:24.235Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_2025_the_second_half/index.md
+2026-01-02T18:29:24.242Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:29:24.247Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:29:24.247Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:24.247Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:29:24.302Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:29:24.336Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:29:24.336Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:24.336Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:29:24.444Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_january_2019/index.md.tmp.23372.1767378564444
+2026-01-02T18:29:24.444Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:29:24.444Z [DEBUG] Temp file written successfully, size: 3074 bytes
+2026-01-02T18:29:24.444Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:29:24.444Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_january_2019/index.md.tmp.23372.1767378564444 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_january_2019/index.md
+2026-01-02T18:29:24.445Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_january_2019/index.md written atomically
+2026-01-02T18:29:24.449Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_january_2019/index.md
+2026-01-02T18:29:24.471Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:29:24.519Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:29:24.519Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:24.519Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:29:24.589Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:29:24.623Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:29:24.623Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:24.623Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:29:24.729Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_february_2019/index.md.tmp.23372.1767378564729
+2026-01-02T18:29:24.729Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:29:24.730Z [DEBUG] Temp file written successfully, size: 2715 bytes
+2026-01-02T18:29:24.730Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:29:24.730Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_february_2019/index.md.tmp.23372.1767378564729 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_february_2019/index.md
+2026-01-02T18:29:24.730Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_february_2019/index.md written atomically
+2026-01-02T18:29:24.734Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_february_2019/index.md
+2026-01-02T18:29:24.766Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:29:24.795Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:29:24.795Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:24.795Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:29:24.861Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:29:24.906Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:29:24.906Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:24.906Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:29:24.999Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_january_2021/index.md.tmp.23372.1767378564999
+2026-01-02T18:29:24.999Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:29:25.000Z [DEBUG] Temp file written successfully, size: 2082 bytes
+2026-01-02T18:29:25.000Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:29:25.000Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_january_2021/index.md.tmp.23372.1767378564999 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_january_2021/index.md
+2026-01-02T18:29:25.000Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_january_2021/index.md written atomically
+2026-01-02T18:29:25.004Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_january_2021/index.md
+2026-01-02T18:29:25.053Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:29:25.085Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:29:25.085Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:25.085Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:29:25.153Z [DEBUG] executePreToolHooks called for tool: Edit
+2026-01-02T18:29:25.188Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2026-01-02T18:29:25.188Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:25.188Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:29:25.292Z [DEBUG] Writing to temp file: /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_droidkaigi_2019/index.md.tmp.23372.1767378565292
+2026-01-02T18:29:25.293Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:29:25.293Z [DEBUG] Temp file written successfully, size: 3452 bytes
+2026-01-02T18:29:25.293Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:29:25.293Z [DEBUG] Renaming /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_droidkaigi_2019/index.md.tmp.23372.1767378565292 to /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_droidkaigi_2019/index.md
+2026-01-02T18:29:25.293Z [DEBUG] File /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_droidkaigi_2019/index.md written atomically
+2026-01-02T18:29:25.297Z [DEBUG] FileHistory: Tracked file modification for /Users/shoheikawano/Documents/shoheikawano.com/content/en/posts/look_back_droidkaigi_2019/index.md
+2026-01-02T18:29:25.324Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-01-02T18:29:25.361Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2026-01-02T18:29:25.362Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:25.362Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2026-01-02T18:29:25.434Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:29:25.434Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:29:25.434Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:29:25.434Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:29:28.065Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:29:32.729Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2026-01-02T18:29:32.734Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2026-01-02T18:29:32.734Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:32.734Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2026-01-02T18:29:32.750Z [DEBUG] Writing to temp file: /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json.tmp.23372.1767378572750
+2026-01-02T18:29:32.750Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:29:32.751Z [DEBUG] Temp file written successfully, size: 843 bytes
+2026-01-02T18:29:32.751Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:29:32.751Z [DEBUG] Renaming /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json.tmp.23372.1767378572750 to /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json
+2026-01-02T18:29:32.751Z [DEBUG] File /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json written atomically
+2026-01-02T18:29:32.759Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2026-01-02T18:29:32.759Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:32.759Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2026-01-02T18:29:32.766Z [DEBUG] executePreToolHooks called for tool: Grep
+2026-01-02T18:29:32.771Z [DEBUG] Getting matching hook commands for PreToolUse with query: Grep
+2026-01-02T18:29:32.771Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:32.771Z [DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+2026-01-02T18:29:33.367Z [DEBUG] Getting matching hook commands for PostToolUse with query: Grep
+2026-01-02T18:29:33.367Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:33.367Z [DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+2026-01-02T18:29:33.377Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:29:33.378Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:29:33.378Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:29:33.378Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:29:35.747Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:29:38.499Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2026-01-02T18:29:38.507Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2026-01-02T18:29:38.507Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:38.507Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2026-01-02T18:29:38.521Z [DEBUG] Writing to temp file: /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json.tmp.23372.1767378578521
+2026-01-02T18:29:38.521Z [DEBUG] Preserving file permissions: 100600
+2026-01-02T18:29:38.521Z [DEBUG] Temp file written successfully, size: 2 bytes
+2026-01-02T18:29:38.521Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:29:38.521Z [DEBUG] Renaming /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json.tmp.23372.1767378578521 to /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json
+2026-01-02T18:29:38.521Z [DEBUG] File /Users/shoheikawano/.claude/todos/e6394d0f-f63a-44e7-b3e2-2b46bc940804-agent-e6394d0f-f63a-44e7-b3e2-2b46bc940804.json written atomically
+2026-01-02T18:29:38.530Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2026-01-02T18:29:38.530Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:38.530Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2026-01-02T18:29:38.535Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:29:38.535Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:29:38.535Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:29:38.535Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:29:41.130Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:29:48.109Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2026-01-02T18:29:48.109Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:29:48.109Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2026-01-02T18:29:48.134Z [DEBUG] Writing to temp file: /Users/shoheikawano/.claude.json.tmp.23372.1767378588134
+2026-01-02T18:29:48.134Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:29:48.135Z [DEBUG] Temp file written successfully, size: 64062 bytes
+2026-01-02T18:29:48.135Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:29:48.135Z [DEBUG] Renaming /Users/shoheikawano/.claude.json.tmp.23372.1767378588134 to /Users/shoheikawano/.claude.json
+2026-01-02T18:29:48.135Z [DEBUG] File /Users/shoheikawano/.claude.json written atomically
+2026-01-02T18:29:48.137Z [DEBUG] Writing to temp file: /Users/shoheikawano/.claude.json.tmp.23372.1767378588137
+2026-01-02T18:29:48.137Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:29:48.137Z [DEBUG] Temp file written successfully, size: 64062 bytes
+2026-01-02T18:29:48.137Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:29:48.137Z [DEBUG] Renaming /Users/shoheikawano/.claude.json.tmp.23372.1767378588137 to /Users/shoheikawano/.claude.json
+2026-01-02T18:29:48.137Z [DEBUG] File /Users/shoheikawano/.claude.json written atomically
+2026-01-02T18:29:52.959Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:29:53.288Z [DEBUG] Streaming aborted by user: Request was aborted.
+2026-01-02T18:29:53.288Z [ERROR] Error in non-streaming fallback: Request was aborted.
+2026-01-02T18:29:53.288Z [ERROR] Error: Error: Request was aborted.
+    at _createMessage (/$bunfs/root/claude:458:3157)
+    at processTicksAndRejections (native:7:39)
+2026-01-02T18:30:06.167Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:30:06.167Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:30:06.167Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:30:06.167Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:30:06.180Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2026-01-02T18:30:06.180Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:30:06.180Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2026-01-02T18:30:06.181Z [DEBUG] FileHistory: Making snapshot for message d969a5d4-c757-4b1b-a0af-e9434f198dca
+2026-01-02T18:30:06.183Z [DEBUG] FileHistory: Added snapshot for d969a5d4-c757-4b1b-a0af-e9434f198dca, tracking 16 files
+2026-01-02T18:30:06.727Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:30:08.931Z [DEBUG] Detected change to /Users/shoheikawano/Documents/shoheikawano.com/.claude/settings.local.json
+2026-01-02T18:30:08.932Z [DEBUG] Settings changed from localSettings, updating AppState
+2026-01-02T18:30:08.932Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 25 rule(s): ["Bash(cat:*)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com config --local -l)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com log --oneline -10)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com status)","Bash(git add:*)","Bash(git commit:*)","Bash(git push:*)","Bash(python3:*)","Bash(hugo server:*)","Bash(hugo:*)","Bash(ls:*)","Bash(find:*)","Bash(xargs basename:*)","Bash(for article in look_back_2020 look_back_2021 from26_to_27 look_back_droidkaigi_2019 look_back_january_2020 look_back_2025_the_first_half look_back_all_2019)","Bash(do)","Bash(if [ -d \"content/ja/posts/$article\" ])","Bash(then)","Bash(echo:*)","Bash(fi)","Bash(if [ -d \"content/en/posts/$article\" ])","Bash(done)","Bash(while read file)","Bash(perl -i -pe:*)","Bash(chmod:*)","Bash(./remove_hatena_links.sh:*)"]
+2026-01-02T18:30:10.020Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:30:13.483Z [DEBUG] executePreToolHooks called for tool: Bash
+2026-01-02T18:30:13.487Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2026-01-02T18:30:13.487Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:30:13.487Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-02T18:30:13.528Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2026-01-02T18:30:13.528Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:30:13.528Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-02T18:30:13.534Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:30:13.534Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:30:13.534Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:30:13.534Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:30:14.132Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:30:15.875Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:30:17.846Z [DEBUG] executePreToolHooks called for tool: TaskOutput
+2026-01-02T18:30:17.850Z [DEBUG] Getting matching hook commands for PreToolUse with query: TaskOutput
+2026-01-02T18:30:17.850Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:30:17.850Z [DEBUG] Matched 0 unique hooks for query "TaskOutput" (0 before deduplication)
+2026-01-02T18:30:17.876Z [DEBUG] Getting matching hook commands for PostToolUse with query: TaskOutput
+2026-01-02T18:30:17.876Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:30:17.876Z [DEBUG] Matched 0 unique hooks for query "TaskOutput" (0 before deduplication)
+2026-01-02T18:30:17.889Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-02T18:30:17.889Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-02T18:30:17.889Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-02T18:30:17.889Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-02T18:30:21.215Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:30:27.291Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2026-01-02T18:30:27.291Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:30:27.291Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2026-01-02T18:30:27.314Z [DEBUG] Writing to temp file: /Users/shoheikawano/.claude.json.tmp.23372.1767378627314
+2026-01-02T18:30:27.314Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:30:27.314Z [DEBUG] Temp file written successfully, size: 64062 bytes
+2026-01-02T18:30:27.314Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:30:27.314Z [DEBUG] Renaming /Users/shoheikawano/.claude.json.tmp.23372.1767378627314 to /Users/shoheikawano/.claude.json
+2026-01-02T18:30:27.315Z [DEBUG] File /Users/shoheikawano/.claude.json written atomically
+2026-01-02T18:30:27.318Z [DEBUG] Writing to temp file: /Users/shoheikawano/.claude.json.tmp.23372.1767378627318
+2026-01-02T18:30:27.318Z [DEBUG] Preserving file permissions: 100644
+2026-01-02T18:30:27.319Z [DEBUG] Temp file written successfully, size: 64062 bytes
+2026-01-02T18:30:27.319Z [DEBUG] Applied original permissions to temp file
+2026-01-02T18:30:27.319Z [DEBUG] Renaming /Users/shoheikawano/.claude.json.tmp.23372.1767378627318 to /Users/shoheikawano/.claude.json
+2026-01-02T18:30:27.319Z [DEBUG] File /Users/shoheikawano/.claude.json written atomically
+2026-01-02T18:30:29.608Z [DEBUG] Stream started - received first chunk
+2026-01-02T18:30:41.567Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2026-01-02T18:30:41.567Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:30:41.567Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2026-01-02T18:40:36.730Z [DEBUG] Detected change to /Users/shoheikawano/Documents/shoheikawano.com/.claude/settings.local.json
+2026-01-02T18:40:36.732Z [DEBUG] Settings changed from localSettings, updating AppState
+2026-01-02T18:40:36.732Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 26 rule(s): ["Bash(cat:*)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com config --local -l)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com log --oneline -10)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com status)","Bash(git add:*)","Bash(git commit:*)","Bash(git push:*)","Bash(python3:*)","Bash(hugo server:*)","Bash(hugo:*)","Bash(ls:*)","Bash(find:*)","Bash(xargs basename:*)","Bash(for article in look_back_2020 look_back_2021 from26_to_27 look_back_droidkaigi_2019 look_back_january_2020 look_back_2025_the_first_half look_back_all_2019)","Bash(do)","Bash(if [ -d \"content/ja/posts/$article\" ])","Bash(then)","Bash(echo:*)","Bash(fi)","Bash(if [ -d \"content/en/posts/$article\" ])","Bash(done)","Bash(while read file)","Bash(perl -i -pe:*)","Bash(chmod:*)","Bash(./remove_hatena_links.sh:*)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com status:*)"]
+2026-01-02T18:43:09.468Z [DEBUG] Detected change to /Users/shoheikawano/Documents/shoheikawano.com/.claude/settings.local.json
+2026-01-02T18:43:09.469Z [DEBUG] Settings changed from localSettings, updating AppState
+2026-01-02T18:43:09.469Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 27 rule(s): ["Bash(cat:*)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com config --local -l)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com log --oneline -10)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com status)","Bash(git add:*)","Bash(git commit:*)","Bash(git push:*)","Bash(python3:*)","Bash(hugo server:*)","Bash(hugo:*)","Bash(ls:*)","Bash(find:*)","Bash(xargs basename:*)","Bash(for article in look_back_2020 look_back_2021 from26_to_27 look_back_droidkaigi_2019 look_back_january_2020 look_back_2025_the_first_half look_back_all_2019)","Bash(do)","Bash(if [ -d \"content/ja/posts/$article\" ])","Bash(then)","Bash(echo:*)","Bash(fi)","Bash(if [ -d \"content/en/posts/$article\" ])","Bash(done)","Bash(while read file)","Bash(perl -i -pe:*)","Bash(chmod:*)","Bash(./remove_hatena_links.sh:*)","Bash(git -C /Users/shoheikawano/Documents/shoheikawano.com status:*)","Bash(/Users/shoheikawano/Documents/shoheikawano.com/scripts/replace_tweet_shortcode.sh:*)"]
+2026-01-02T18:50:41.480Z [DEBUG] Detected Homebrew cask installation: /opt/homebrew/Caskroom/claude-code/2.0.76/claude
+2026-01-02T18:50:41.480Z [DEBUG] AutoUpdaterWrapper: Installation type: package-manager
+2026-01-02T18:50:42.316Z [DEBUG] Getting matching hook commands for SessionEnd with query: prompt_input_exit
+2026-01-02T18:50:42.316Z [DEBUG] Found 0 hook matchers in settings
+2026-01-02T18:50:42.316Z [DEBUG] Matched 0 unique hooks for query "prompt_input_exit" (0 before deduplication)
