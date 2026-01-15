@@ -7,6 +7,16 @@ description: |
   (5) Reviewing or refactoring Compose code, (6) Any Android/KMP UI development task.
   Triggers: "compose", "android ui", "kotlin multiplatform", "CMP", "jetpack compose",
   "composable", "@Composable", "Material3", "screen", "component".
+context: fork
+agent: general-purpose
+user-invocable: true
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Grep
+  - Bash
 ---
 
 # Android Compose Creator
