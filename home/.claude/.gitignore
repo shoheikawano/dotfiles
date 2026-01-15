@@ -1,6 +1,7 @@
 # Cache and temporary files
 cache/
 stats-cache.json
+image-cache/
 
 # Analytics and telemetry
 statsig/
