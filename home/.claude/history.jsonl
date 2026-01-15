@@ -149,3 +149,5 @@
 {"display":"y","pastedContents":{},"timestamp":1768037170494,"project":"/Users/shoheikawano/.homesick/repos/dotfiles","sessionId":"20bf7a3e-7cfc-47b0-b7ca-9bd6aefcaa1e"}
 {"display":" brew upgrade claude-code","pastedContents":{},"timestamp":1768037369665,"project":"/Users/shoheikawano/.homesick/repos/dotfiles","sessionId":"20bf7a3e-7cfc-47b0-b7ca-9bd6aefcaa1e"}
 {"display":"remove curl from BrewFile","pastedContents":{},"timestamp":1768065683512,"project":"/Users/shoheikawano/.homesick/repos/dotfiles","sessionId":"096f4e80-6a23-4f7b-ad06-5018cd1c2d86"}
+{"display":"brew upgrade claude-code","pastedContents":{},"timestamp":1768513156239,"project":"/Users/shoheikawano","sessionId":"68910686-40bd-4289-865a-a3dc1c043ac4"}
+{"display":"add .gitignore inside ~/.claude and ignore statsig, cache, todos, and other historical or temporal files and directories","pastedContents":{},"timestamp":1768513344138,"project":"/Users/shoheikawano","sessionId":"3d103ac9-5c03-4481-8359-72dcf562fa09"}

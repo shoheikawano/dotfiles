@@ -1,0 +1,24 @@
+# Cache and temporary files
+cache/
+stats-cache.json
+
+# Analytics and telemetry
+statsig/
+telemetry/
+
+# Historical and session data
+todos/
+history.jsonl
+file-history/
+session-env/
+shell-snapshots/
+
+# Debug and logs
+debug/
+logs/
+
+# Plans (auto-generated)
+plans/
+
+# Projects metadata (session-specific)
+projects/
