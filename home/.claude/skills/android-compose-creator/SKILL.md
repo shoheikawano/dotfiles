@@ -17,11 +17,29 @@ allowed-tools:
   - Glob
   - Grep
   - Bash
+  - Skill
 ---
 
 # Android Compose Creator
 
-Generate idiomatic, performant Compose Multiplatform code following official best practices.
+Orchestrator for Compose Multiplatform code generation. Can delegate to specialized sub-skills.
+
+## Sub-Skills
+
+| Skill | When to Delegate |
+|-------|------------------|
+| `/compose-state-generator` | ViewModel, UiState, StateFlow patterns |
+| `/compose-test-generator` | UI tests, screenshot tests |
+
+## Workflow
+
+1. **Analyze request** - UI only? Needs ViewModel? Needs tests?
+2. **Check existing code** - Match project patterns
+3. **Generate/delegate**:
+   - Simple UI component → generate inline
+   - Screen with state → invoke `/compose-state-generator` then generate UI
+   - Tests requested → invoke `/compose-test-generator`
+4. **Verify** - Run build if requested
 
 ## Quick Reference
 
