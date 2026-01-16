@@ -9,9 +9,12 @@
 
 ## Meta-Information
 - Custom slash commands located in: `~/.claude/commands/`
-- Use `/reflect` to enhance existing commands based on usage patterns
+- Custom skills located in: `~/.claude/skills/`
 - **Auto-sync system**: Automatically sync dotfiles repository (homesick) changes using `~/.claude/scripts/auto-sync-dotfiles.sh`
-- **Command improvement marker**: Check `~/.claude/logs/suggest-improvement-marker` at session start - if present, proactively offer to run `/reflect`, then auto-sync changes if improvements are made
+
+## Session End Protocol
+- **If errors or issues occurred during the session**: Before ending, ask the user if they want to run the `session-optimizer` skill to analyze what went wrong and propose improvements to commands, skills, or workflows
+- This helps capture learnings and prevent similar issues in future sessions
 
 ## Command Enhancement Strategy
 
@@ -37,9 +40,8 @@
 
 ### Continuous Improvement Process
 - **Always try to improve myself**: Look for opportunities to enhance capabilities, workflow efficiency, and user experience
-- **Command improvement awareness**: Ask user for permission to run `/reflect` whenever I identify opportunities to enhance existing slash commands based on usage patterns or limitations
+- **Improvement awareness**: Use the `session-optimizer` skill when identifying opportunities to enhance existing commands or skills based on usage patterns or limitations
 - **Pattern recognition**: Actively identify recurring tasks, pain points, or manual processes that could be automated or streamlined
-- **Session start check**: At the beginning of each session, check if `~/.claude/logs/suggest-improvement-marker` exists. If it does, proactively ask user if they want to run `/reflect`. After running the command and making improvements, automatically sync changes with `check-and-sync.sh`
 
 ### Improvement Triggers
 - When user performs repetitive manual tasks
