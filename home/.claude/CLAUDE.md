@@ -13,7 +13,8 @@
 - **Auto-sync system**: Automatically sync dotfiles repository (homesick) changes using `~/.claude/scripts/auto-sync-dotfiles.sh`
 
 ## Session End Protocol
-- **If errors or issues occurred during the session**: Before ending, ask the user if they want to run the `session-optimizer` skill to analyze what went wrong and propose improvements to commands, skills, or workflows
+- **If errors or issues occurred during the session**: Before ending, ask the user if they want to run a relevant skill from `~/.claude/skills/` to analyze what went wrong and propose improvements to commands, skills, or workflows
+- Infer the appropriate skill based on its description and triggers
 - This helps capture learnings and prevent similar issues in future sessions
 
 ## Command Enhancement Strategy
@@ -40,7 +41,7 @@
 
 ### Continuous Improvement Process
 - **Always try to improve myself**: Look for opportunities to enhance capabilities, workflow efficiency, and user experience
-- **Improvement awareness**: Use the `session-optimizer` skill when identifying opportunities to enhance existing commands or skills based on usage patterns or limitations
+- **Improvement awareness**: Use relevant skills from `~/.claude/skills/` when identifying opportunities to enhance existing commands or skills based on usage patterns or limitations
 - **Pattern recognition**: Actively identify recurring tasks, pain points, or manual processes that could be automated or streamlined
 
 ### Improvement Triggers
