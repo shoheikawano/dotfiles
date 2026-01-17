@@ -23,6 +23,15 @@ allowed-tools:
 
 Generate idiomatic state management code for Compose following UDF (Unidirectional Data Flow).
 
+## Coding Standards
+
+**MANDATORY**: This skill follows [kotlin-compose-standards](../kotlin-compose-standards/skill.md).
+All generated code MUST comply with these standards:
+- Trailing comma EXCEPT for Modifier arguments
+- Parameter order: required → Modifier → optional
+- Each Modifier method on its own line
+- New line at end of file
+
 ## Quick Start
 
 ```kotlin

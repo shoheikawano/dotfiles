@@ -24,6 +24,16 @@ allowed-tools:
 
 Orchestrator for Compose Multiplatform code generation. Can delegate to specialized sub-skills.
 
+## Coding Standards
+
+**MANDATORY**: This skill follows [kotlin-compose-standards](../kotlin-compose-standards/skill.md).
+All generated code MUST comply with these standards:
+- Trailing comma EXCEPT for Modifier arguments
+- Parameter order: required → Modifier → optional
+- Modifier passed last when calling composables
+- Each Modifier method on its own line
+- New line at end of file
+
 ## Sub-Skills
 
 | Skill | When to Delegate |
@@ -61,10 +71,10 @@ fun Component(
     // 1. Required parameters
     title: String,
     onClick: () -> Unit,
-    // 2. Optional parameters with defaults
-    enabled: Boolean = true,
-    // 3. modifier (always last with default)
+    // 2. Modifier parameter
     modifier: Modifier = Modifier,
+    // 3. Optional parameters with defaults
+    enabled: Boolean = true,
 ) { }
 ```
 
@@ -76,13 +86,17 @@ fun Counter(
     count: Int,
     onIncrement: () -> Unit,
     modifier: Modifier = Modifier,
-)
+) { }
 
 // Stateful wrapper
 @Composable
 fun Counter(modifier: Modifier = Modifier) {
     var count by remember { mutableStateOf(0) }
-    Counter(count = count, onIncrement = { count++ }, modifier = modifier)
+    Counter(
+        count = count,
+        onIncrement = { count++ },
+        modifier = modifier  // Modifier last when calling, no trailing comma
+    )
 }
 ```
 

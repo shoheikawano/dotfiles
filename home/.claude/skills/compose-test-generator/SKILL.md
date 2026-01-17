@@ -22,6 +22,16 @@ allowed-tools:
 
 Generate idiomatic Compose UI tests following best practices.
 
+## Coding Standards
+
+**MANDATORY**: This skill follows [kotlin-compose-standards](../kotlin-compose-standards/skill.md).
+All generated code MUST comply with these standards:
+- Trailing comma EXCEPT for Modifier arguments
+- Parameter order: required → Modifier → optional
+- Modifier passed last when calling composables
+- Each Modifier method on its own line
+- New line at end of file
+
 ## Quick Start
 
 ```kotlin
