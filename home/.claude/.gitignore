@@ -2,6 +2,7 @@
 cache/
 stats-cache.json
 image-cache/
+paste-cache/
 
 # Analytics and telemetry
 statsig/
