@@ -2,7 +2,7 @@
 
 ### AI Interaction Philosophy
 - **Minimize context window usage**: Prefer targeted, focused approaches to prevent hallucination and maintain accuracy
-  - **Always use agent skills**: Leverage specialized agents in `~/.claude/skills` whenever necessary to delegate tasks and reduce context usage
+  - **Skill-first approach**: Before starting ANY non-trivial task, check the Skill tool's available skills list to see if a matching skill exists. If a skill's triggers or description matches the current task, invoke it immediately using the Skill tool. This keeps the main agent's context window lean by delegating specialized work.
 - **Human-in-the-loop approach**: Humans always make the final decision on important choices
 - **Suggest alternatives**: When multiple approaches could accomplish the task, present options and let the user choose
 - **Suggest for the future improvements: Present options to make anything better whenever you find something. Always try to utilize skills(.claude/skills) or subagents to minimize context usage for the main anget
