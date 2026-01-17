@@ -8,7 +8,6 @@
 - **Suggest for the future improvements: Present options to make anything better whenever you find something. Always try to utilize skills(.claude/skills) or subagents to minimize context usage for the main anget
 
 ## Meta-Information
-- Custom slash commands located in: `~/.claude/commands/`
 - Custom skills located in: `~/.claude/skills/`
 - **Auto-sync system**: Automatically sync dotfiles repository (homesick) changes using `~/.claude/scripts/auto-sync-dotfiles.sh`
 
@@ -16,24 +15,24 @@
 **MANDATORY**: At the end of EVERY session, invoke the `session-optimizer` skill using the Skill tool to:
 - Analyze session usage patterns and identify workflow improvements
 - Detect errors, failures, or inefficiencies that occurred
-- Propose enhancements to existing slash commands and skills
+- Propose enhancements to existing skills
 - Capture learnings to prevent similar issues in future sessions
 
-**Triggers for session-optimizer**: errors, failures, repetitive manual steps, workflow gaps, command limitations, or user frustration during the session
+**Triggers for session-optimizer**: errors, failures, repetitive manual steps, workflow gaps, skill limitations, or user frustration during the session
 
-## Command Enhancement Strategy
+## Skill Enhancement Strategy
 
-### When to improve commands:
+### When to improve skills:
 1. User requests manual steps that could be automated
-2. Workflow gaps between commands identified
+2. Workflow gaps between skills identified
 3. Integration opportunities with new MCP tools
-4. User feedback about command limitations
+4. User feedback about skill limitations
 5. Repetitive patterns in session histories
 
 ### Enhancement focus areas:
 - **Tool utilization**: Leverage all available Claude Code tools effectively
 - **Error handling**: Better edge case management and recovery
-- **Workflow integration**: Smoother handoffs between commands
+- **Workflow integration**: Smoother handoffs between skills
 - **User experience**: More intuitive interactions and helpful prompts
 
 ## Self-Improvement Directives
@@ -45,13 +44,13 @@
 
 ### Continuous Improvement Process
 - **Always try to improve myself**: Look for opportunities to enhance capabilities, workflow efficiency, and user experience
-- **Improvement awareness**: Use relevant skills from `~/.claude/skills/` when identifying opportunities to enhance existing commands or skills based on usage patterns or limitations
+- **Improvement awareness**: Use relevant skills from `~/.claude/skills/` when identifying opportunities to enhance existing skills based on usage patterns or limitations
 - **Pattern recognition**: Actively identify recurring tasks, pain points, or manual processes that could be automated or streamlined
 
 ### Improvement Triggers
 - When user performs repetitive manual tasks
 - When workflow gaps become apparent
-- When new tools or integrations could enhance existing commands
+- When new tools or integrations could enhance existing skills
 - When user expresses frustration with current processes
 - When session patterns reveal optimization opportunities
 
@@ -72,9 +71,6 @@
 # Security check first, then sync if clean:
 ~/.claude/scripts/security-check.sh && ~/.claude/scripts/auto-sync-dotfiles.sh "Descriptive commit message"
 
-# For slash command operations:
-/sync-dotfiles  # (this includes security checks)
-
 # Manual security check only:
 ~/.claude/scripts/security-check.sh
 ```
@@ -87,15 +83,15 @@
 - **Manual override**: User must manually review and clean sensitive data before retry
 
 ### Automation Triggers:
-- New command creation in `~/.claude/commands/`
-- Updates to existing commands or configurations
+- New skill creation in `~/.claude/skills/`
+- Updates to existing skills or configurations
 - Changes to agent configurations in `~/.claude/agents/`
 - Modifications to this CLAUDE.md file
 - Any script additions in `~/.claude/scripts/`
 - **ANY changes to files tracked by homesick dotfiles repository**
 
 ## Key Context for Future Sessions
-- Commands should maintain consistency with existing patterns
+- Skills should maintain consistency with existing patterns
 - Always confirm major changes or new directions with user
 - Prioritize practical productivity improvements over theoretical features
 - Maintain the balance between automation and user control
