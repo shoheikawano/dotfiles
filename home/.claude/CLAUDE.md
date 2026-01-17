@@ -9,7 +9,7 @@
 
 ## Meta-Information
 - Custom skills located in: `~/.claude/skills/`
-- **Auto-sync system**: Automatically sync dotfiles repository (homesick) changes using `~/.claude/scripts/auto-sync-dotfiles.sh`
+- **Auto-sync system**: Use `dotfiles-syncer` skill or scripts at `~/.claude/skills/dotfiles-syncer/scripts/`
 
 ## Session End Protocol
 **MANDATORY**: At the end of EVERY session, invoke the `session-optimizer` skill using the Skill tool to:
@@ -68,11 +68,15 @@
 
 #### Implementation Pattern:
 ```bash
-# Security check first, then sync if clean:
-~/.claude/scripts/security-check.sh && ~/.claude/scripts/auto-sync-dotfiles.sh "Descriptive commit message"
+# Use the dotfiles-syncer skill (recommended):
+# Invoke via Skill tool with skill: "dotfiles-syncer"
 
-# Manual security check only:
-~/.claude/scripts/security-check.sh
+# Or run scripts directly:
+~/.claude/skills/dotfiles-syncer/scripts/check-and-sync.sh
+
+# Security check first, then sync if clean:
+~/.claude/skills/dotfiles-syncer/scripts/security-check.sh && \
+~/.claude/skills/dotfiles-syncer/scripts/auto-sync-dotfiles.sh "Descriptive commit message"
 ```
 
 #### Security Features:
@@ -87,7 +91,6 @@
 - Updates to existing skills or configurations
 - Changes to agent configurations in `~/.claude/agents/`
 - Modifications to this CLAUDE.md file
-- Any script additions in `~/.claude/scripts/`
 - **ANY changes to files tracked by homesick dotfiles repository**
 
 ## Key Context for Future Sessions

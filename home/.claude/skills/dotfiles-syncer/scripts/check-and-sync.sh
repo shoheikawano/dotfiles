@@ -17,7 +17,7 @@ if ! git diff --quiet HEAD 2>/dev/null || [ -n "$(git ls-files --others --exclud
     echo "🔍 Detected changes in dotfiles repository"
 
     # Run security check first
-    if ! ~/.claude/scripts/security-check.sh; then
+    if ! ~/.claude/skills/dotfiles-syncer/scripts/security-check.sh; then
         echo "⚠️  Security check failed - skipping sync"
         echo "Please review and manually sync your dotfiles"
         exit 1
@@ -26,5 +26,5 @@ if ! git diff --quiet HEAD 2>/dev/null || [ -n "$(git ls-files --others --exclud
     # Security check passed, run auto-sync
     # No commit message provided - let auto-sync generate a meaningful one based on changed files
     echo "✅ Security check passed - syncing dotfiles"
-    ~/.claude/scripts/auto-sync-dotfiles.sh
+    ~/.claude/skills/dotfiles-syncer/scripts/auto-sync-dotfiles.sh
 fi
