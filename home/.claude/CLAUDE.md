@@ -13,9 +13,13 @@
 - **Auto-sync system**: Automatically sync dotfiles repository (homesick) changes using `~/.claude/scripts/auto-sync-dotfiles.sh`
 
 ## Session End Protocol
-- **If errors or issues occurred during the session**: Before ending, ask the user if they want to run a relevant skill from `~/.claude/skills/` to analyze what went wrong and propose improvements to commands, skills, or workflows
-- Infer the appropriate skill based on its description and triggers
-- This helps capture learnings and prevent similar issues in future sessions
+**MANDATORY**: At the end of EVERY session, invoke the `session-optimizer` skill using the Skill tool to:
+- Analyze session usage patterns and identify workflow improvements
+- Detect errors, failures, or inefficiencies that occurred
+- Propose enhancements to existing slash commands and skills
+- Capture learnings to prevent similar issues in future sessions
+
+**Triggers for session-optimizer**: errors, failures, repetitive manual steps, workflow gaps, command limitations, or user frustration during the session
 
 ## Command Enhancement Strategy
 
