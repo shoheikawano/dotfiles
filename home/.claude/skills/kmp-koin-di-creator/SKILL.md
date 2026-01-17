@@ -1,15 +1,21 @@
 ---
 name: kmp-koin-di-creator
-description: >-
+description: |
   Generate Koin dependency injection code for Kotlin Multiplatform (KMP) projects using Koin 4.x.
   Use when (1) Setting up Koin DI in KMP projects, (2) Creating Koin modules for features,
   (3) Implementing DSL-based or Annotations-based DI, (4) Configuring platform-specific dependencies with expect/actual,
   (5) Adding ViewModels with Koin, (6) Structuring DI for clean architecture (UI/Domain/Data layers).
-  Triggers include koin, dependency injection, di module, koin module, @Single, @Factory, viewModel{}, single{}, factory{}, kmp di, multiplatform di.
-metadata:
-  context: fork
-  agent: general-purpose
-  user-invocable: true
+  Triggers: koin, dependency injection, di module, koin module, @Single, @Factory, viewModel{}, single{}, factory{}, kmp di, multiplatform di.
+context: fork
+agent: general-purpose
+user-invocable: true
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Grep
+  - Bash
 ---
 
 # KMP Koin DI Creator
