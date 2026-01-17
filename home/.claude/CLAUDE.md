@@ -57,41 +57,28 @@
 ## Automated Configuration Management
 
 ### Auto-Sync Protocol
-**CRITICAL**: After making ANY changes to dotfiles repository (including ~/.claude), Claude MUST run security checks and sync if clean.
+**CRITICAL**: After modifying ANY git-tracked file in the dotfiles repository, Claude MUST invoke the `dotfiles-syncer` skill to sync changes.
 
-#### Required Actions:
-1. **Security-first workflow**: Always run security check before syncing dotfiles changes
-2. **Automated sync**: If security check passes, automatically sync dotfiles repository
-3. **Manual intervention**: If security check fails, stop and request user review
-4. **Health checks**: Verifies repository integrity before and after sync operations
-5. **Error handling**: Comprehensive error detection and recovery for complex scenarios
+#### Dotfiles Repository Locations:
+- `~/.homesick/repos/dotfiles/` - Main dotfiles repository
+- `~/.claude/` - Symlinked to dotfiles, all changes here are git-tracked
 
-#### Implementation Pattern:
-```bash
-# Use the dotfiles-syncer skill (recommended):
-# Invoke via Skill tool with skill: "dotfiles-syncer"
+#### MANDATORY Action:
+**Whenever Claude edits, creates, or deletes any file inside the dotfiles repository, immediately invoke the `dotfiles-syncer` skill using the Skill tool.**
 
-# Or run scripts directly:
-~/.claude/skills/dotfiles-syncer/scripts/check-and-sync.sh
-
-# Security check first, then sync if clean:
-~/.claude/skills/dotfiles-syncer/scripts/security-check.sh && \
-~/.claude/skills/dotfiles-syncer/scripts/auto-sync-dotfiles.sh "Descriptive commit message"
+```
+File modified in dotfiles repo → Invoke Skill: "dotfiles-syncer"
 ```
 
+#### What the skill does:
+1. Runs security check (scans for sensitive data)
+2. If clean: commits and pushes changes automatically
+3. If issues found: stops and alerts user for review
+
 #### Security Features:
-- **Mandatory security check**: All dotfiles changes MUST pass security scan before sync
 - **Sensitive data detection**: Scans for passwords, API keys, tokens, credentials, private keys
 - **File pattern checking**: Flags suspicious filenames and extensions
 - **Zero tolerance**: Any security violation blocks the sync completely
-- **Manual override**: User must manually review and clean sensitive data before retry
-
-### Automation Triggers:
-- New skill creation in `~/.claude/skills/`
-- Updates to existing skills or configurations
-- Changes to agent configurations in `~/.claude/agents/`
-- Modifications to this CLAUDE.md file
-- **ANY changes to files tracked by homesick dotfiles repository**
 
 ## Key Context for Future Sessions
 - Skills should maintain consistency with existing patterns
