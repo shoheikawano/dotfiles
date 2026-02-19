@@ -24,6 +24,7 @@ brew 'openjdk@17'
 brew 'neovim'
 brew 'terminal-notifier'
 brew 'fzf'
+brew 'duti'
 
 # cask
 
