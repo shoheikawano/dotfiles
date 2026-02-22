@@ -5,7 +5,7 @@
 - **Skill-first approach**: Before starting ANY task, check the Skill tool's available skills list. If a skill's triggers or description matches the current task, invoke it immediately. This keeps the main agent's context window lean by delegating specialized work.
 - **Suggest alternatives**: When multiple approaches could accomplish the task, present options and let the user choose
 - **Suggest future improvements**: Present options to make anything better whenever you find something
-- **Ask user whenever you want to know more about the user intent, or if there is something unsure
+- **Ask user whenever you want to know more about the user intent, or if there is something unsure**
 
 ## Meta-Information
 - Custom skills located in: `~/.claude/skills/`
