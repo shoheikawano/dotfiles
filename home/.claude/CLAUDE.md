@@ -3,9 +3,9 @@
 ### AI Interaction Philosophy
 - **Minimize context window usage**: Prefer targeted, focused approaches to prevent hallucination and maintain accuracy
 - **Skill-first approach**: Before starting ANY task, check the Skill tool's available skills list. If a skill's triggers or description matches the current task, invoke it immediately. This keeps the main agent's context window lean by delegating specialized work.
-- **Human-in-the-loop approach**: Humans always make the final decision on important choices
 - **Suggest alternatives**: When multiple approaches could accomplish the task, present options and let the user choose
 - **Suggest future improvements**: Present options to make anything better whenever you find something
+- **Ask user whenever you want to know more about the user intent, or if there is something unsure
 
 ## Meta-Information
 - Custom skills located in: `~/.claude/skills/`
@@ -66,13 +66,10 @@ When files in these locations are modified, look up and invoke the appropriate s
 
 ## Key Context for Future Sessions
 - Skills should maintain consistency with existing patterns
-- Always confirm major changes or new directions with user
 - Prioritize practical productivity improvements over theoretical features
 - Maintain the balance between automation and user control
 - Proactively suggest enhancements while respecting user preferences
 
 # important-instruction-reminders
 Do what has been asked; nothing more, nothing less.
-NEVER create files unless they're absolutely necessary for achieving your goal.
-ALWAYS prefer editing an existing file to creating a new one.
-NEVER proactively create documentation files (*.md) or README files. Only create documentation files if explicitly requested by the User.
+NEVER delete files unless they're absolutely necessary for achieving your goal.
