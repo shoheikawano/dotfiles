@@ -25,6 +25,7 @@ brew 'neovim'
 brew 'terminal-notifier'
 brew 'fzf'
 brew 'duti'
+brew 'JetBrains/utils/kotlin-lsp'
 
 # cask
 
